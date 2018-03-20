@@ -54,6 +54,8 @@
 
 <link rel="stylesheet" href="css/lfo.css">
 
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
   </head>
   <body>
 
@@ -337,44 +339,41 @@
 
 
 	<div id="fh5co-contact" data-section="contact">
-  <div class="container">
-    <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
-      
-      <h2>Contactez nous</h2>
-      <p>Horaires, Adresse, numéro de tel et formulaire de contact</p>
-      
-    </div>
-    <form name="contact-form" netlify-honeypot="_gotcha" action="thank-you" netlify>
-      <div class="row">
-	<div class="col-md-6">
-	  <div class="form-group">
-	    
-	    <input type="text" class="form-control" id="inputName" placeholder="Your name" name="_name">
-	  </div>
-	</div>
-	<div class="col-md-6">
-	  <div class="form-group">
-	    <input type="email" class="form-control" id="inputEmail" placeholder="Your email" name="_replyto" required>
-	    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-	  </div>
-	</div>
-	<div class="col-md-12">
-	  <div class="form-group">
-	    <textarea class="form-control" id="inputBody" cols="30" rows="7" placeholder="Please enter a message." name="message"></textarea>
-	  </div>
-	</div>
-	<div class="col-md-12">
-	  <div class="form-group">
-	    <input type="hidden" name="_subject" value="New website query">
-	    <input type="text" name="_gotcha" style="display:none">
-	    <button type="submit" class="btn btn-primary btn-outline" value="Send">Submit</button>
-	    
-	  </div>
-	</div>
-      </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+                
+                <h2>Contactez-nous</h2>
+                <p>Laissez nous votre message</p>
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div> <i class="fa fa-mobile"></i> : 06.69.45.54.40</div>
+                <div><i class="fa fa-at"></i> : contact@listen.immo</div>
+            </div>
+            <div class="col-md-8">
+                <form name="contact-form" action="Merci.">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="inputName" placeholder="Votre nom" name="_name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Votre email" name="_replyto" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" id="inputBody" cols="30" rows="7" placeholder="Votre demande en quelques mots" name="message"></textarea>
+                    </div>
+                    <div class="form-group text-right">
+                        <input type="hidden" name="_subject" value="New website query">
+                        <button type="submit" class="btn btn-primary btn-outline " value="Send">Envoyer</button>
+                    </div>
+                    <small id="emailHelp" class="form-text text-center">Vos données personnelles resteront confidentielles.</small>
+                </form>
+            </div>
+        </div>
 
-    </form>
-  </div>
+    </div>
 </div>
 
 	
