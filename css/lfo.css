@@ -1,11 +1,17 @@
+/*@media (min-width: 1400px) {
+    .container {
+        width: 1360px;
+    }
+}*/
 
 .lfo-2-padding {
     padding: 2em 0 !important; 
 }
 
-.lfo-nav-padding {
+.lfo-nav {
     padding: 12px 0 !important; 
-}
+    /*margin-right: 25px !important;*/ 
+    }
 
 .lfo-0-margin {
     margin: 0 0 !important; 
