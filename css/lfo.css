@@ -10,12 +10,18 @@
 
 .lfo-nav {
     padding: 12px 0 !important; 
-    /*margin-right: 25px !important;*/ 
-    }
+}
 
 .lfo-0-margin {
     margin: 0 0 !important; 
 }
 .lfo-0-padding {
     padding: 0 0 !important; 
+}
+
+@media screen and (max-width: 768px) {
+    .lfo-nav {
+        padding: 2px !important; 
+    }
+    
 }
