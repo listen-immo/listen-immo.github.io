@@ -19,9 +19,18 @@
     padding: 0 0 !important; 
 }
 
+.exposant {
+    position: relative;
+    bottom: 1px;
+    font-size: 1.2em;
+    line-height: .8em;
+    vertical-align:super;
+    text-decoration:none;
+}
+
 @media screen and (max-width: 768px) {
     .lfo-nav {
         padding: 2px !important; 
     }
-    
+
 }

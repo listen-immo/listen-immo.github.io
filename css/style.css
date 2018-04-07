@@ -1,6 +1,6 @@
-/*color: #C41F3A;*/
-/*color: #760E22;*/
-/*color: #B3B3B3;*/
+/*color: #C41F3A; rouge*/
+/*color: #760E22; bordeaux*/
+/*color: #B3B3B3; gris*/
 @font-face {
     font-family: 'icomoon';
     src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -9,7 +9,7 @@
     font-style: normal;
 }
 body {
-    font-family: "Open Sans", Arial, sans-serif;
+    font-family: "Open Sans", Arial, sans-serif !important;
     font-size: 18px;
     font-weight: 300;
     line-height: 1.8;
@@ -232,7 +232,7 @@ p {
 }
 #fh5co-home .fh5co-copy-inner h1 {
     color: #C41F3A;
-    font-size: 55px;
+    font-size: 60px;
     /*margin-top: -100px;*/
     margin-bottom: 20px;
     line-height: 1.2;
