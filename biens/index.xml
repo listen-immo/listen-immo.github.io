@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Listen IMMO&#43;</title>
-    <link>./</link>
-    <description>Recent content on Listen IMMO&#43;</description>
+    <title>Biens on Listen IMMO&#43;</title>
+    <link>./biens/</link>
+    <description>Recent content in Biens on Listen IMMO&#43;</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
     
-	<atom:link href="./index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="./biens/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
