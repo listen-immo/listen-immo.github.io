@@ -1,0 +1,117 @@
+/*@import "./bootstrap-4.1.1/scss/bootstrap";*/
+/*$listen-very-light-grey: #F0F4F6;
+$listen-light-grey: #CFCFCF;
+$listen-grey: #596069;
+$listen-dark-grey: #34383D;*/
+/*$listen-bordeaux-60: linear-gradient(rgba(118, 6, 34, 0.6) 0%, rgba(118,16,34, 0.6) 100%);*/
+@media (max-width: 768px) {
+  .listen-carousel .carousel-item {
+    min-height: 24rem !important; } }
+@media (max-width: 600px) {
+  .listen-carousel .carousel-item {
+    min-height: 20rem !important; } }
+@media (max-width: 500px) {
+  .listen-carousel .carousel-item {
+    min-height: 18rem !important; } }
+@media (max-width: 400px) {
+  .listen-carousel .carousel-item {
+    min-height: 16rem !important; } }
+body {
+  font: 100% "Open Sans", Arial, sans-serif;
+  /*    h1 {
+          color: $listen-bordeaux;
+      }*/ }
+  body h2 {
+    color: #C41F3A; }
+  body h3 {
+    color: #760E22; }
+
+.listen-navbar {
+  background-color: #FFFFFF;
+  font: 100% "Open Sans", Arial, sans-serif; }
+  .listen-navbar .navbar-brand, .listen-navbar .navbar-text {
+    color: #760E22; }
+  .listen-navbar .navbar-nav .nav-link {
+    color: #760E22; }
+  .listen-navbar .nav-item.active .nav-link, .listen-navbar .nav-item:hover .nav-link {
+    color: #C41F3A; }
+
+.listen-jumbotron {
+  background-color: #e8ecf1;
+  padding: 2rem; }
+
+.listen-carousel {
+  /* Since positioning the image, we need to help out the caption */
+  /* Declare heights because of positioning of img element */ }
+  .listen-carousel .carousel {
+    /*margin-bottom: 4rem;*/ }
+  .listen-carousel .carousel-caption {
+    /*bottom: 3rem;*/
+    z-index: 10; }
+  .listen-carousel .carousel-item {
+    /*height: screen.height / 3;*/
+    min-height: 32rem;
+    width: 100%;
+    background-color: transparent; }
+  .listen-carousel .carousel-item > img {
+    max-height: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto; }
+
+.listen-bien-header {
+  padding-top: 2rem; }
+
+/*.btn {
+    margin-right: 4px;
+    margin-bottom: 4px;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    border-radius: 100px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.btn.btn-md {
+    padding: 10px 20px !important;
+}
+.btn.btn-lg {
+    padding: 18px 36px !important;
+}
+.btn:hover, .btn:active, .btn:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.btn-primary {
+    background: $listen-bordeaux;
+    color: #fff;
+    border: 2px solid $listen-bordeaux;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    background: $listen-rouge !important;
+    border-color: $listen-rouge !important;
+}
+.btn-primary.btn-outline {
+    background: transparent;
+    color: $listen-bordeaux;
+    border: 2px solid $listen-bordeaux;
+}
+
+.btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
+    background: $listen-bordeaux !important;
+    color: #fff !important;
+    border: 2px solid #fff !important;
+}*/
+
+/*# sourceMappingURL=bien.css.map */
