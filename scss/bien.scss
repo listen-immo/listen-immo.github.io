@@ -1,20 +1,23 @@
-/*@import "./bootstrap-4.1.1/scss/bootstrap";*/
-
-$listen-white: #FFFFFF;
+$listen-blanc: #FFFFFF;
 /*$listen-very-light-grey: #F0F4F6;
 $listen-light-grey: #CFCFCF;
 $listen-grey: #596069;
 $listen-dark-grey: #34383D;*/
 
 $listen-bordeaux: #760E22;
-/*$listen-bordeaux-60: linear-gradient(rgba(118, 6, 34, 0.6) 0%, rgba(118,16,34, 0.6) 100%);*/
-$listen-bordeaux-60: rgba(118, 6, 34, 0.6);
+$listen-bordeaux-50: rgba(118, 6, 34, 0.6);
 $listen-rouge: #C41F3A;
 $listen-gris: #B3B3B3;
-$listen-gris-60: rgba(179, 179, 179, 0.7);
 $listen-gris-light: rgb(232, 236, 241);
 
 $listen-default-font-family: "Open Sans", Arial, sans-serif;
+
+$theme-colors: (
+primary: $listen-bordeaux,
+secondary: $listen-rouge,
+);
+
+@import "./bootstrap-4.1.1/scss/bootstrap";
 
 @media (max-width: 768px) {
     .listen-carousel {
@@ -48,10 +51,8 @@ $listen-default-font-family: "Open Sans", Arial, sans-serif;
 
 
 body {
-    font: 100% $listen-default-font-family;
-/*    h1 {
-        color: $listen-bordeaux;
-    }*/
+    font: 120% $listen-default-font-family;
+
     h2 {
         color: $listen-rouge;
     }
@@ -61,7 +62,7 @@ body {
 }
 
 .listen-navbar{
-    background-color: $listen-white;
+    background-color: $listen-blanc;
     font: 100% $listen-default-font-family;
     .navbar-brand, .navbar-text {
         color: $listen-bordeaux;
@@ -69,13 +70,22 @@ body {
     .navbar-nav .nav-link {
         color: $listen-bordeaux;
     }
+    .nav-item {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding-right: 1rem;
+    }
     .nav-item.active .nav-link, .nav-item:hover .nav-link {
         color: $listen-rouge;
+    }
+    .btn {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 }
 
 .listen-jumbotron {
-    background-color: $listen-gris-light;
+    background-color: $listen-gris;
     padding: 2rem;
 
 }
@@ -107,61 +117,21 @@ body {
         right: 0;  
         margin: auto;
     }
-    
+
 }
 
 .listen-bien-header {
     padding-top: 2rem;
 }
 
-
-
-/*.btn {
-    margin-right: 4px;
-    margin-bottom: 4px;
-    font-family: "Open Sans", Arial, sans-serif;
-    font-size: 12px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-weight: 700;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-    -ms-border-radius: 100px;
-    border-radius: 100px;
-    -webkit-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: 0.5s;
-}
-.btn.btn-md {
-    padding: 10px 20px !important;
-}
-.btn.btn-lg {
-    padding: 18px 36px !important;
-}
-.btn:hover, .btn:active, .btn:focus {
-    box-shadow: none !important;
-    outline: none !important;
-}
-
-.btn-primary {
-    background: $listen-bordeaux;
-    color: #fff;
-    border: 2px solid $listen-bordeaux;
-}
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background: $listen-rouge !important;
-    border-color: $listen-rouge !important;
-}
-.btn-primary.btn-outline {
-    background: transparent;
+.listen-modal {
     color: $listen-bordeaux;
-    border: 2px solid $listen-bordeaux;
+    .modal-body {
+        background-color: $listen-gris-light;
+    }
 }
 
-.btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-    background: $listen-bordeaux !important;
-    color: #fff !important;
-    border: 2px solid #fff !important;
-}*/
-
-
+.listen-container {
+    background-color: $listen-gris-light;
+    padding: 3rem;
+}
