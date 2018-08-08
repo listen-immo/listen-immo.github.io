@@ -286,11 +286,11 @@ p {
 }
 .fh5co-main-nav .fh5co-menu-1 a {
     padding: 35px 0;
-    margin-right: 30px;
+    margin-right: 20px;
     color: #C41F3A;
     /*color: #B3B3B3;*/
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-size: 13px;
     font-weight: 400;
     display: -moz-inline-stack;
