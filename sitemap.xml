@@ -7,10 +7,6 @@
   </url>
   
   <url>
-    <loc>./biens/0007/</loc>
-  </url>
-  
-  <url>
     <loc>./categories/bien/</loc>
     <priority>0</priority>
   </url>
@@ -41,6 +37,10 @@
   
   <url>
     <loc>./biens/0005/</loc>
+  </url>
+  
+  <url>
+    <loc>./biens/0007/</loc>
   </url>
   
 </urlset>
