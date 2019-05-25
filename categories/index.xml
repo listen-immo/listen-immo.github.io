@@ -11,11 +11,20 @@
     
     
     <item>
-      <title>Bien</title>
+      <title>bien</title>
       <link>./categories/bien/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>./categories/bien/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vente</title>
+      <link>./categories/vente/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./categories/vente/</guid>
       <description></description>
     </item>
     
