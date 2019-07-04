@@ -43,6 +43,10 @@
   </url>
   
   <url>
+    <loc>./biens/0017/</loc>
+  </url>
+  
+  <url>
     <loc>./biens/</loc>
     <priority>0</priority>
   </url>
