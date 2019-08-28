@@ -56,7 +56,7 @@ Listen Immo +, Cathy Brisou agent commercial N° 809933500.</description>
     </item>
     
     <item>
-      <title>18 - T3 Talence</title>
+      <title>18 - Appartement Talence</title>
       <link>./biens/0018/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -66,6 +66,17 @@ Idéal pour un premier achat ou investissement locatif. Aucuns travaux à prévo
 Copropriété de 18 lots - Charges annuelles de 1 635€.
 Prix HAI : 298 000€ Honoraires TTC inclus à la charge de l’acquéreur de 3,5% du bien hors honoraires.
 Prix du bien hors honoraires : 288 000€</description>
+    </item>
+    
+    <item>
+      <title>19 - Maison Canéjan</title>
+      <link>./biens/0019/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./biens/0019/</guid>
+      <description>Secteur La House à Canéjan, venez découvrir cette maison mitoyenne de 5 pièces + garage, proche des écoles et des commerces. Au RDC, le séjour exposé ouest donne directement sur une grande terrasse, et la cuisine est aménagée et équipée.
+A l’étage, un pallier avec placard dessert 4 chambres de 9,5 à 14 m2 et une salle d&amp;rsquo;eau. Idéal pour une famille ! Aucuns travaux à prévoir.
+DPE en cours.</description>
     </item>
     
   </channel>
