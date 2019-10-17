@@ -43,42 +43,35 @@
   </url>
   
   <url>
-    <loc>./biens/0019/</loc>
-  </url>
-  
-  <url>
-    <loc>./biens/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>./categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>./</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>./tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>./ventes/</loc>
-    <priority>0</priority>
+    <loc>./biens/0021/</loc>
   </url>
   
   <url>
     <loc>./categories/bien/</loc>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>./biens/</loc>
+  </url>
+  
+  <url>
+    <loc>./categories/</loc>
+  </url>
+  
+  <url>
+    <loc>./</loc>
+  </url>
+  
+  <url>
+    <loc>./tags/</loc>
   </url>
   
   <url>
     <loc>./categories/vente/</loc>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>./ventes/</loc>
   </url>
   
 </urlset>
