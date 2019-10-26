@@ -153,7 +153,7 @@
                 <h2>MAISON LAC – 105m² avec combles aménagés de 25m²</h2>
             </div>
             <div class="col-md-6 text-right">
-                <h2><b>384 500 €</b></h2>
+                <h2><b>398 000 €</b></h2>
             </div>
         </div>
     </div>
@@ -170,8 +170,6 @@
 <p>Un studio indépendant vient agrémenter ce bien et peut vous faire bénéficier de revenus complémentaires.</p>
 
 <p>Je reste à votre disposition au 06.77.38.70.89 pour toute visite.</p>
-
-<p>DPE : En cours de réalisation</p>
 
 <p>Prix HAI : 398 000€
 Honoraires TTC inclus à la charge de l’acquéreur de 3,5% du bien hors honoraires.</p>
@@ -198,12 +196,20 @@ Honoraires TTC inclus à la charge de l’acquéreur de 3,5% du bien hors honora
 
             <div class="col-md-1 "></div>
             
+            <div class="col-md-5">DPE (Diagnostic de performance énergétique)</div>
+            
+            
+            <div class="col-md-5" >GES (Gaz à effet de serre)</div>
             
         </div>
         <br/>
         <div class="row">
             <div class="col-md-1 "></div>
             
+            <div class="col-md-5" id="dpe"> </div>
+            
+            
+            <div class="col-md-5" id="ges"></div>
             
         </div>
 
@@ -212,12 +218,12 @@ Honoraires TTC inclus à la charge de l’acquéreur de 3,5% du bien hors honora
 var dpe = new DpeGes();
 dpe.dpe({
 domId: 'dpe',
-        value:  null ,
+        value: "E",
 });
 var ges = new DpeGes();
 ges.ges({
 domId: 'ges',
-        value:  null 
+        value: "C"
 });
         </script>
     </div>
