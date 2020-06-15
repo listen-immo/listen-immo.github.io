@@ -3,6 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>./biens/0012/</loc>
+  </url>
+  
+  <url>
+    <loc>./biens/0015/</loc>
+  </url>
+  
+  <url>
+    <loc>./biens/0024/</loc>
+  </url>
+  
+  <url>
     <loc>./ventes/0002/</loc>
   </url>
   
@@ -23,15 +35,7 @@
   </url>
   
   <url>
-    <loc>./biens/0012/</loc>
-  </url>
-  
-  <url>
     <loc>./ventes/0014/</loc>
-  </url>
-  
-  <url>
-    <loc>./biens/0015/</loc>
   </url>
   
   <url>
@@ -48,10 +52,6 @@
   
   <url>
     <loc>./ventes/0022/</loc>
-  </url>
-  
-  <url>
-    <loc>./biens/0024/</loc>
   </url>
   
   <url>
