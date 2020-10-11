@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>archive</title>
+      <link>./categories/archive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./categories/archive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>bien</title>
       <link>./categories/bien/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

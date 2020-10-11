@@ -12,10 +12,10 @@
     
     <item>
       <title>12 - Maison Léognan</title>
-      <link>./biens/0012/</link>
+      <link>./archives/0012/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./biens/0012/</guid>
+      <guid>./archives/0012/</guid>
       <description>Cette maison de plain-pied, située dans un environnement calme a été bien entretenue et conviendra à vos futurs projets.
 L&amp;rsquo;intérieur se compose d&amp;rsquo;un vaste salon-séjour avec cheminée, d&amp;rsquo;une cuisine séparée, de 3 chambres, d&amp;rsquo;une salle d&amp;rsquo;eau, de toilettes séparées, d&amp;rsquo;un bureau et également de deux grands garages.
 De nombreuses possibilités d&amp;rsquo;évolution sont envisageables.
@@ -197,14 +197,25 @@ Disposant également de deux terrasses en bois idéalement orientées pour organ
     
     <item>
       <title>27 - Exclusivite Villenave d&#39;Ornon</title>
-      <link>./ventes/0027/</link>
+      <link>./archives/0027/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./ventes/0027/</guid>
+      <guid>./archives/0027/</guid>
       <description>Gros potentiel pour cette maison de 108m2 sur 465m2 de parcelle piscinable.
 Maison mitoyenne d&amp;rsquo;un côté, composée au RDC d&amp;rsquo;une cuisine récente, d&amp;rsquo;un salon avec cheminée et d&amp;rsquo;une salle à manger donnant sur le jardin orienté Sud Ouest.
 Au 1er étage, 4 grandes chambres de 11 à 13 m², une salle de bain et un WC séparé. Un grand garage, une terrasse et un cabanon complètent le bien.
 Des travaux importants sont à prévoir, mais la maison est saine et de belles évolutions sont envisageables.</description>
+    </item>
+    
+    <item>
+      <title>30 - Maison St Bris</title>
+      <link>./biens/0030/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./biens/0030/</guid>
+      <description>Dans un quartier recherché de Saint-Bris, Listen Immo + vous propose cette belle rénovation effectuée il y a moins d’un an par un architecte.
+Cette maison de 3 chambres vous offre une très belle pièce de vie conviviale et lumineuse de plus de 45m² donnant sur un jardin exposé plein Sud, le tout sur une parcelle de 400 m² vous permettant le stationnement de plusieurs véhicules.
+Proche de toutes commodités, Tram, établissements scolaires, commerces, n’hésitez pas à me contacter pour plus d’informations.</description>
     </item>
     
   </channel>

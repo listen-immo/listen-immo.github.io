@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>./biens/0012/</loc>
+    <loc>./archives/0012/</loc>
   </url>
   
   <url>
@@ -71,7 +71,19 @@
   </url>
   
   <url>
-    <loc>./ventes/0027/</loc>
+    <loc>./archives/0027/</loc>
+  </url>
+  
+  <url>
+    <loc>./biens/0030/</loc>
+  </url>
+  
+  <url>
+    <loc>./categories/archive/</loc>
+  </url>
+  
+  <url>
+    <loc>./archives/</loc>
   </url>
   
   <url>

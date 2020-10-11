@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>archive on Listen IMMO&#43;</title>
+    <link>./categories/archive/</link>
+    <description>Recent content in archive on Listen IMMO&#43;</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	<atom:link href="./categories/archive/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>12 - Maison Léognan</title>
+      <link>./archives/0012/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./archives/0012/</guid>
+      <description>Cette maison de plain-pied, située dans un environnement calme a été bien entretenue et conviendra à vos futurs projets.
+L&amp;rsquo;intérieur se compose d&amp;rsquo;un vaste salon-séjour avec cheminée, d&amp;rsquo;une cuisine séparée, de 3 chambres, d&amp;rsquo;une salle d&amp;rsquo;eau, de toilettes séparées, d&amp;rsquo;un bureau et également de deux grands garages.
+De nombreuses possibilités d&amp;rsquo;évolution sont envisageables.
+Prix HAI: 360 000 € Honoraires TTC inclus à la charge de l&amp;rsquo;acquéreur: 3,5 % du prix du bien hors honoraires.</description>
+    </item>
+    
+    <item>
+      <title>27 - Exclusivite Villenave d&#39;Ornon</title>
+      <link>./archives/0027/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./archives/0027/</guid>
+      <description>Gros potentiel pour cette maison de 108m2 sur 465m2 de parcelle piscinable.
+Maison mitoyenne d&amp;rsquo;un côté, composée au RDC d&amp;rsquo;une cuisine récente, d&amp;rsquo;un salon avec cheminée et d&amp;rsquo;une salle à manger donnant sur le jardin orienté Sud Ouest.
+Au 1er étage, 4 grandes chambres de 11 à 13 m², une salle de bain et un WC séparé. Un grand garage, une terrasse et un cabanon complètent le bien.
+Des travaux importants sont à prévoir, mais la maison est saine et de belles évolutions sont envisageables.</description>
+    </item>
+    
+  </channel>
+</rss>
