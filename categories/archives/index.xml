@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>archives on Listen IMMO&#43;</title>
+    <link>./categories/archives/</link>
+    <description>Recent content in archives on Listen IMMO&#43;</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    
+	<atom:link href="./categories/archives/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>26 - Maison Art Déco Talence</title>
+      <link>./archives/0026/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./archives/0026/</guid>
+      <description>Venez découvrir cette agréable maison en pierre aux charmes de la belle époque, entourée de verdure.
+Cette rénovation de qualité vous propose une pièce de vie lumineuse avec une triple exposition, d’environ 40m¹ donnant directement sur un jardin arboré piscinable à l’abri des regards, trois grandes chambres dont deux possèdent leur propre balcon, un bureau, une grande cuisine indépendante avec cellier, une cave, et un appentis, le tout sur une parcelle de plus de 400m².</description>
+    </item>
+    
+  </channel>
+</rss>

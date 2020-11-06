@@ -15,7 +15,7 @@
   </url>
   
   <url>
-    <loc>./biens/0026/</loc>
+    <loc>./archives/0026/</loc>
   </url>
   
   <url>
@@ -88,6 +88,10 @@
   
   <url>
     <loc>./archives/</loc>
+  </url>
+  
+  <url>
+    <loc>./categories/archives/</loc>
   </url>
   
   <url>
