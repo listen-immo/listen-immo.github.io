@@ -43,6 +43,10 @@
   </url>
   
   <url>
+    <loc>./visites/1/</loc>
+  </url>
+  
+  <url>
     <loc>./ventes/0002/</loc>
   </url>
   
@@ -128,6 +132,10 @@
   
   <url>
     <loc>./ventes/</loc>
+  </url>
+  
+  <url>
+    <loc>./visites/</loc>
   </url>
   
 </urlset>

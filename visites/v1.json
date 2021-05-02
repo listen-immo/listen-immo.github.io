@@ -1,0 +1,57 @@
+{
+  "default": {
+    "firstScene": "circle",
+    "author": "Listen Immo +",
+    "sceneFadeDuration": 1000
+  },
+  "scenes": {
+    "circle": {
+      "title": "Maison Canéjan 5 pièces",
+      "hfov": 100,
+      "pitch": 5,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "/images/from-tree.jpg",
+      "hotSpots": [
+        {
+          "pitch": 5,
+          "yaw": 8,
+          "type": "scene",
+          "text": "test",
+          "sceneId": "house",
+          "cssClass": "custom-hotspot",
+          "createTooltipArgs": "Baltimore Art"
+        },
+        {
+          "pitch": 25,
+          "yaw": -8,
+          "type": "scene",
+          "text": "test",
+          "sceneId": "house",
+          "cssClass": "custom-hotspot",
+          "createTooltipArgs": "Baltimore Museum of Art"
+        }
+      ]
+    },
+    "house": {
+      "title": "Super maison à visiter",
+      "hfov": 110,
+      "yaw": 5,
+      "type": "equirectangular",
+      "panorama": "/images/bma-0.jpg",
+      "hotSpots": [
+        {
+          "pitch": -0.6,
+          "yaw": 37.1,
+          "type": "scene",
+          "text": "Mason Circle",
+          "sceneId": "circle",
+          "targetYaw": -170,
+          "targetPitch": 2,
+          "cssClass": "custom-hotspot",
+          "createTooltipArgs": "hotspot args"
+        }
+      ]
+    }
+  }
+}
