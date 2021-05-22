@@ -1,25 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -36,38 +14,8 @@
             height: 1200px;
         }
 
-        .custom-hotspot {
-            height: 15px;
-            width: 15px;
-            background: #0f0;
-        }
-        div.custom-tooltip span {
-            visibility: hidden;
-            position: absolute;
-            border-radius: 3px;
-            background-color: #fff;
-            color: #000;
-            text-align: center;
-            max-width: 200px;
-            padding: 5px 10px;
-            margin-left: -220px;
-            cursor: default;
-        }
-        div.custom-tooltip:hover span{
-            visibility: visible;
-        }
-        div.custom-tooltip:hover span:after {
-            content: '';
-            position: absolute;
-            width: 0;
-            height: 0;
-            border-width: 25px;
-            border-style: solid;
-            border-color: #fff transparent transparent transparent;
-            bottom: -20px;
-            left: -10px;
-            margin: 0 50%;
-        }
+         
+         
     </style>
 </head>
 <body>
@@ -75,20 +23,21 @@
 
 <div id="panorama"></div>
 <script>
-    function hotspot(hotSpotDiv, args) {
-        hotSpotDiv.classList.add('custom-tooltip');
-        var span = document.createElement('span');
-        span.innerHTML = args;
-        hotSpotDiv.appendChild(span);
-        span.style.width = span.scrollWidth - 20 + 'px';
-        span.style.marginLeft = -(span.scrollWidth - hotSpotDiv.offsetWidth) / 2 + 'px';
-        span.style.marginTop = -span.scrollHeight - 12 + 'px';
-    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
-    $.getJSON('/visites/v1.json', function(data) {
+    $.getJSON('visite.json', function(data) {
         data.autoLoad = true;
         Object.entries(data.scenes).forEach( scene =>  {
-            scene[1].hotSpots.forEach( spot => spot.createTooltipFunc = hotspot)
+
+            
             console.log(scene[1].hotSpots)
         })
         pannellum.viewer('panorama', data);

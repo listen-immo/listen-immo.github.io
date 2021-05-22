@@ -1,0 +1,148 @@
+{
+  "default": {
+    "firstScene": "entree",
+    "author": "Liste Immo +",
+    "sceneFadeDuration": 1000
+  },
+  "scenes": {
+    "entree": {
+      "title": "Entrée",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "entree.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 215,
+          "type": "scene",
+          "text": "Salle de Bain",
+          "sceneId": "salleDeBain",
+          "targetYaw": 175
+        },
+        {
+          "pitch": -5,
+          "yaw": 110,
+          "type": "scene",
+          "text": "Cuisine",
+          "sceneId": "cuisine",
+          "targetYaw": -70,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "salleDeBain": {
+      "title": "Salle de bain",
+      "hfov": 110,
+      "yaw": 5,
+      "type": "equirectangular",
+      "panorama": "sdb.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 25,
+          "type": "scene",
+          "text": "Entrée",
+          "sceneId": "entree"
+        },
+        {
+          "pitch": 0,
+          "yaw": 31,
+          "type": "scene",
+          "text": "Salon",
+          "sceneId": "salon",
+          "targetYaw": 180
+        },
+        {
+          "pitch": 0,
+          "yaw": 36,
+          "type": "scene",
+          "text": "Dressing",
+          "sceneId": "dressing",
+          "targetYaw": -150
+        }
+      ]
+    },
+    "cuisine": {
+      "title": "Cuisine",
+      "hfov": 1000,
+      "yaw": 5,
+      "type": "equirectangular",
+      "panorama": "cuisine.jpg",
+      "hotSpots": [
+        {
+          "yaw": 117,
+          "type": "scene",
+          "text": "Entrée",
+          "sceneId": "entree",
+          "targetYaw": -180
+        },
+        {
+          "yaw": 15,
+          "pitch": -18,
+          "type": "scene",
+          "text": "Salon",
+          "sceneId": "salon",
+          "targetYaw": -100
+        }
+      ]
+    },
+    "dressing": {
+      "title": "Dressing",
+      "hfov": 1000,
+      "yaw": 5,
+      "type": "equirectangular",
+      "panorama": "dressing.jpg",
+      "hotSpots": [
+        {
+          "pitch": 5,
+          "yaw": 45,
+          "type": "scene",
+          "text": "Entrée",
+          "sceneId": "entree"
+        },
+        {
+          "pitch": 0,
+          "yaw": 238,
+          "type": "scene",
+          "text": "Chambre",
+          "sceneId": "chambre",
+          "targetYaw": 210
+        }
+      ]
+    },
+    "chambre": {
+      "title": "Chambre",
+      "hfov": 1000,
+      "yaw": 210,
+      "type": "equirectangular",
+      "panorama": "chambre.jpg",
+      "hotSpots": [
+        {
+          "yaw": 15,
+          "type": "scene",
+          "text": "Dressing",
+          "sceneId": "dressing",
+          "targetYaw": 45
+        }
+      ]
+    },
+    "salon": {
+      "title": "Salon",
+      "hfov": 1000,
+      "yaw": -60,
+      "type": "equirectangular",
+      "panorama": "salon2.jpg",
+      "hotSpots": [
+        {
+          "yaw": 90,
+          "type": "scene",
+          "text": "Cuisine",
+          "sceneId": "cuisine",
+          "targetYaw": -155
+        }
+      ]
+    }
+  }
+}
