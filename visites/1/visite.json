@@ -1,7 +1,8 @@
 {
+  "compass": false,
   "default": {
     "firstScene": "entree",
-    "author": "Liste Immo +",
+    "author": "Listen Immo +",
     "sceneFadeDuration": 1000
   },
   "scenes": {
@@ -23,7 +24,7 @@
         },
         {
           "pitch": -5,
-          "yaw": 110,
+          "yaw": 110, 
           "type": "scene",
           "text": "Cuisine",
           "sceneId": "cuisine",
