@@ -43,6 +43,11 @@
   </url>
   
   <url>
+    <loc>./visites/0039/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>./visites/1/</loc>
     <priority>0</priority>
   </url>
