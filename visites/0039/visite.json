@@ -15,6 +15,14 @@
       "hotSpots": [
         {
           "pitch": 0,
+          "yaw": 0,
+          "type": "scene",
+          "text": "Portail",
+          "sceneId": "Portail",
+          "targetYaw": 20
+        },
+        {
+          "pitch": 0,
           "yaw": 268,
           "type": "scene",
           "text": "Chambre2",
@@ -54,8 +62,8 @@
           "type": "scene",
           "text": "SalleBain",
           "sceneId": "SalleBain",
-          "targetYaw": 300,
-          "targetPitch": -15
+          "targetYaw": 355,
+          "targetPitch": 0
         },
         {
           "pitch": 0,
@@ -63,14 +71,17 @@
           "type": "scene",
           "text": "Salon2",
           "sceneId": "Salon2",
-          "targetYaw": 180,
+          "targetYaw": 0,
           "targetPitch": 0
         },
         {
-          "pitch": -5,
+          "pitch": 0,
           "yaw": 230,
-          "type": "info",
-          "text": "Bureau"
+          "type": "scene",
+          "text": "Bureau",
+          "sceneId": "Bureau",
+          "targetYaw": 50,
+          "targetPitch": 0
         }
       ]
     },
@@ -88,7 +99,33 @@
           "type": "scene",
           "text": "Portail",
           "sceneId": "Portail",
-          "targetYaw": 90
+          "targetYaw": 0
+        }
+      ]
+    },
+    "Bureau": {
+      "title": "Bureau",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "Bureau.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 30,
+          "type": "scene",
+          "text": "Entrée",
+          "sceneId": "Entrée",
+          "targetYaw": 180
+        },
+        {
+          "pitch": 0,
+          "yaw": 70,
+          "type": "scene",
+          "text": "Salon3",
+          "sceneId": "Salon3",
+          "targetYaw": 180
         }
       ]
     },
@@ -106,13 +143,14 @@
           "type": "scene",
           "text": "Entrée",
           "sceneId": "Entrée",
-          "targetYaw": 180
+          "targetYaw": 270
         }
       ]
     },
     "SalleBain": {
       "title": "SalleBain",
       "pitch": 0,
+      "hfov": 500,
       "yaw": 180,
       "type": "equirectangular",
       "panorama": "SalleBain.jpg",
@@ -123,13 +161,14 @@
           "type": "scene",
           "text": "Entrée",
           "sceneId": "Entrée",
-          "targetYaw": 180
+          "targetYaw": 270
         }
       ]
     },
     "Buanderie": {
       "title": "Buanderie",
       "pitch": 0,
+      "hfov": 500,
       "yaw": 180,
       "type": "equirectangular",
       "panorama": "Buanderie.jpg",
@@ -140,7 +179,7 @@
           "type": "scene",
           "text": "Portail",
           "sceneId": "Portail",
-          "targetYaw": 180
+          "targetYaw": 10
         },
         {
           "pitch": 0,
@@ -156,12 +195,13 @@
           "type": "scene",
           "text": "Cuisine",
           "sceneId": "Cuisine",
-          "targetYaw": 140
+          "targetYaw": 30
         }
       ]
     },
     "Atelier": {
       "title": "Atelier",
+      "hfov": 500,
       "pitch": 0,
       "yaw": 180,
       "type": "equirectangular",
@@ -181,7 +221,7 @@
           "type": "scene",
           "text": "JardinArriere",
           "sceneId": "JardinArriere",
-          "targetYaw": 180
+          "targetYaw": 0
         },
         {
           "pitch": 0,
@@ -196,6 +236,7 @@
     "Grenier": {
       "title": "Grenier",
       "pitch": 0,
+      "hfov": 500,
       "yaw": 180,
       "type": "equirectangular",
       "panorama": "Grenier.jpg",
@@ -206,7 +247,7 @@
           "type": "scene",
           "text": "Atelier",
           "sceneId": "Atelier",
-          "targetYaw": 0
+          "targetYaw": 180
         }
       ]
     },
@@ -214,6 +255,7 @@
       "title": "Cuisine",
       "pitch": 0,
       "yaw": 180,
+      "hfov": 500,
       "type": "equirectangular",
       "panorama": "Cuisine.jpg",
       "hotSpots": [
@@ -223,7 +265,7 @@
           "type": "scene",
           "text": "Buanderie",
           "sceneId": "Buanderie",
-          "targetYaw": 170
+          "targetYaw": 0
         },
         {
           "pitch": 0,
@@ -231,7 +273,7 @@
           "type": "scene",
           "text": "Salle à manger 1",
           "sceneId": "SaM1",
-          "targetYaw": 180
+          "targetYaw": 0
         },
         {
           "pitch": 0,
@@ -246,6 +288,7 @@
     "Chambre3": {
       "title": "Chambre3",
       "pitch": 0,
+      "hfov": 500,
       "yaw": 180,
       "type": "equirectangular",
       "panorama": "Chambre3.jpg",
@@ -256,13 +299,14 @@
           "type": "scene",
           "text": "Entrée",
           "sceneId": "Entrée",
-          "targetYaw": 180
+          "targetYaw": 270
         }
       ]
     },
     "Chambre2": {
       "title": "Chambre2",
       "pitch": 0,
+      "hfov": 500,
       "yaw": 180,
       "type": "equirectangular",
       "panorama": "Chambre2.jpg",
@@ -273,13 +317,14 @@
           "type": "scene",
           "text": "Entrée",
           "sceneId": "Entrée",
-          "targetYaw": 180
+          "targetYaw": 270
         }
       ]
     },
     "SuiteParentale": {
       "title": "SuiteParentale",
       "pitch": 0,
+      "hfov": 500,
       "yaw": 90,
       "type": "equirectangular",
       "panorama": "SuiteParentale.jpg",
@@ -306,13 +351,14 @@
           "type": "scene",
           "text": "Entrée",
           "sceneId": "Entrée",
-          "targetYaw": 180
+          "targetYaw": 270
         }
       ]
     },
     "Dressing": {
       "title": "Dressing",
       "pitch": 0,
+      "hfov": 500,
       "yaw": 0,
       "type": "equirectangular",
       "panorama": "Dressing.jpg",
@@ -330,6 +376,7 @@
     "SalleEau": {
       "title": "SalleEau",
       "pitch": 0,
+      "hfov": 500,
       "yaw": 290,
       "type": "equirectangular",
       "panorama": "SalleEau.jpg",
@@ -364,7 +411,7 @@
           "type": "scene",
           "text": "Garage",
           "sceneId": "Garage",
-          "targetYaw": 180,
+          "targetYaw": 0,
           "targetPitch": 0
         },
         {
@@ -373,7 +420,7 @@
           "type": "scene",
           "text": "Entrée buanderie",
           "sceneId": "Buanderie",
-          "targetYaw": 250,
+          "targetYaw": 355,
           "targetPitch": 0
         },
         {
@@ -382,7 +429,7 @@
           "type": "scene",
           "text": "Jardin",
           "sceneId": "Jardin",
-          "targetYaw": 140,
+          "targetYaw": 310,
           "targetPitch": 0
         },
         {
@@ -410,7 +457,7 @@
           "type": "scene",
           "text": "Salon3",
           "sceneId": "Salon3",
-          "targetYaw": 0,
+          "targetYaw": 180,
           "targetPitch": 0
         },
         {
@@ -419,7 +466,7 @@
           "type": "scene",
           "text": "JardinArriere",
           "sceneId": "JardinArriere",
-          "targetYaw": 180,
+          "targetYaw": 0,
           "targetPitch": 0
         },
         {
@@ -428,7 +475,7 @@
           "type": "scene",
           "text": "Salon2",
           "sceneId": "Salon2",
-          "targetYaw": 180,
+          "targetYaw": 0,
           "targetPitch": 0
         },
         {
@@ -456,7 +503,7 @@
           "type": "scene",
           "text": "Salle à manger1",
           "sceneId": "SaM1",
-          "targetYaw": 220,
+          "targetYaw": 330,
           "targetPitch": 0
         },
         {
@@ -465,7 +512,7 @@
           "type": "scene",
           "text": "JardinArriere",
           "sceneId": "JardinArriere",
-          "targetYaw": 180,
+          "targetYaw": 0,
           "targetPitch": 0
         },
         {
@@ -493,7 +540,7 @@
           "type": "scene",
           "text": "Jardin",
           "sceneId": "Jardin",
-          "targetYaw": 180,
+          "targetYaw": 300,
           "targetPitch": 0
         },
         {
@@ -502,7 +549,7 @@
           "type": "scene",
           "text": "Terrasse",
           "sceneId": "Terrasse",
-          "targetYaw": 180,
+          "targetYaw": 40,
           "targetPitch": 0
         },
         {
@@ -527,15 +574,15 @@
           "pitch": -5,
           "yaw": 260,
           "type": "scene",
-          "text": "Tonnelle",
+          "text": "Vallon",
           "sceneId": "Tonnelle",
-          "targetYaw": 230,
+          "targetYaw": 40,
           "targetPitch": 0
         }
       ]
     },
     "Tonnelle": {
-      "title": "Tonnelle",
+      "title": "Vallon",
       "hfov": 500,
       "pitch": 0,
       "yaw": 180,
@@ -548,7 +595,7 @@
           "type": "scene",
           "text": "Jardin",
           "sceneId": "Jardin",
-          "targetYaw": 270
+          "targetYaw": 290
         },
         {
           "pitch": 0,
@@ -556,7 +603,7 @@
           "type": "scene",
           "text": "JardinArriere",
           "sceneId": "JardinArriere",
-          "targetYaw": 90
+          "targetYaw": 0
         }
       ]
     },
@@ -574,7 +621,7 @@
           "type": "scene",
           "text": "Salon2",
           "sceneId": "Salon2",
-          "targetYaw": 180,
+          "targetYaw": 0,
           "targetPitch": 0
         },
         {
@@ -583,7 +630,7 @@
           "type": "scene",
           "text": "JardinArriere",
           "sceneId": "JardinArriere",
-          "targetYaw": 180,
+          "targetYaw": 0,
           "targetPitch": 0
         },
         {
@@ -592,7 +639,7 @@
           "type": "scene",
           "text": "Salon1",
           "sceneId": "Salon1",
-          "targetYaw": 0,
+          "targetYaw": 180,
           "targetPitch": 0
         },
         {
@@ -610,7 +657,7 @@
           "type": "scene",
           "text": "Salle à manger 1",
           "sceneId": "SaM1",
-          "targetYaw": 130,
+          "targetYaw": 330,
           "targetPitch": 0
         },
         {
@@ -619,7 +666,7 @@
           "type": "scene",
           "text": "Terrasse",
           "sceneId": "Terrasse",
-          "targetYaw": 270,
+          "targetYaw": 40,
           "targetPitch": 0
         },
         {
@@ -628,7 +675,7 @@
           "type": "scene",
           "text": "Salle à manger 2",
           "sceneId": "SaM2",
-          "targetYaw": 180,
+          "targetYaw": 0,
           "targetPitch": 0
         },
         {
@@ -637,7 +684,7 @@
           "type": "scene",
           "text": "Cuisine",
           "sceneId": "Cuisine",
-          "targetYaw": 0,
+          "targetYaw": 30,
           "targetPitch": 0
         },
         {
@@ -646,7 +693,7 @@
           "type": "scene",
           "text": "Buanderie",
           "sceneId": "Buanderie",
-          "targetYaw": 180,
+          "targetYaw": 0,
           "targetPitch": 0
         }
       ]
@@ -665,7 +712,7 @@
           "type": "scene",
           "text": "Salon3",
           "sceneId": "Salon3",
-          "targetYaw": 0,
+          "targetYaw": 180,
           "targetPitch": 0
         },
         {
@@ -674,7 +721,7 @@
           "type": "scene",
           "text": "JardinArriere",
           "sceneId": "JardinArriere",
-          "targetYaw": 180,
+          "targetYaw": 0,
           "targetPitch": 0
         },
         {
@@ -683,7 +730,7 @@
           "type": "scene",
           "text": "Salon1",
           "sceneId": "Salon1",
-          "targetYaw": 0,
+          "targetYaw": 180,
           "targetPitch": 0
         },
         {
@@ -692,7 +739,7 @@
           "type": "scene",
           "text": "Entree Principale",
           "sceneId": "Entrée",
-          "targetYaw": 0,
+          "targetYaw": 180,
           "targetPitch": 0
         }
       ]
@@ -711,7 +758,7 @@
           "type": "scene",
           "text": "Salon3",
           "sceneId": "Salon3",
-          "targetYaw": 160,
+          "targetYaw": 340,
           "targetPitch": 0
         },
         {
@@ -720,7 +767,7 @@
           "type": "scene",
           "text": "Salle à manger 1",
           "sceneId": "SaM1",
-          "targetYaw": 180,
+          "targetYaw": 0,
           "targetPitch": 0
         },
         {
@@ -729,7 +776,7 @@
           "type": "scene",
           "text": "Terrasse",
           "sceneId": "Terrasse",
-          "targetYaw": 0,
+          "targetYaw": 50,
           "targetPitch": 0
         },
         {
@@ -738,7 +785,7 @@
           "type": "scene",
           "text": "Cuisine",
           "sceneId": "Cuisine",
-          "targetYaw": 180,
+          "targetYaw": 30,
           "targetPitch": 0
         }
       ]
@@ -757,7 +804,7 @@
           "type": "scene",
           "text": "Terrasse",
           "sceneId": "Terrasse",
-          "targetYaw": 270,
+          "targetYaw": 40,
           "targetPitch": 0
         },
         {
@@ -766,15 +813,15 @@
           "type": "scene",
           "text": "Salle à manger 2",
           "sceneId": "SaM2",
-          "targetYaw": 190,
+          "targetYaw": 10,
           "targetPitch": 0
         },
         {
           "pitch": 0,
           "yaw": 275,
           "type": "scene",
-          "text": "Salon1",
-          "sceneId": "Salon1",
+          "text": "Salon3",
+          "sceneId": "Salon3",
           "targetYaw": 0,
           "targetPitch": 0
         },
@@ -784,7 +831,7 @@
           "type": "scene",
           "text": "Cuisine",
           "sceneId": "Cuisine",
-          "targetYaw": 230,
+          "targetYaw": 20,
           "targetPitch": 0
         }
       ]
@@ -803,7 +850,7 @@
           "type": "scene",
           "text": "Portail",
           "sceneId": "Portail",
-          "targetYaw": 270
+          "targetYaw": 20
         },
         {
           "pitch": -5,
@@ -811,15 +858,15 @@
           "type": "scene",
           "text": "JardinArriere",
           "sceneId": "JardinArriere",
-          "targetYaw": 80
+          "targetYaw": 0
         },
         {
           "pitch": -5,
           "yaw": 120,
           "type": "scene",
-          "text": "Tonnelle",
+          "text": "Vallon",
           "sceneId": "Tonnelle",
-          "targetYaw": -70,
+          "targetYaw": 30,
           "targetPitch": 0
         }
       ]
