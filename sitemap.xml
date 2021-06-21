@@ -57,6 +57,11 @@
   </url>
   
   <url>
+    <loc>./visites/2/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>./ventes/0002/</loc>
   </url>
   
