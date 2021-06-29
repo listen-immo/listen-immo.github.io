@@ -11,6 +11,16 @@
     
     
     <item>
+      <title>40 - Appartement T2 - 49 m²</title>
+      <link>./biens/0040/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./biens/0040/</guid>
+      <description>En exclusivité Listen Immo vous propose dans une résidence très calme et parfaitement entretenue par un gardien, cet appartement composé d’un séjour très lumineux (double exposition) avec une cuisine ouverte récemment aménagée et équipée donnant sur un extérieur verdoyant d’environ 6m² sans aucun vis-à-vis, d’une chambre avec placard de plus de 11m², d’une salle de bain, d’un WC séparé, et d’une place de parking.
+Un grand parc arboré avec tennis est mis à disposition des résidents.</description>
+    </item>
+    
+    <item>
       <title>39 - Maison architecte en viager</title>
       <link>./biens/0039/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -112,10 +122,10 @@ Il se compose d’une vaste entrée avec placard desservant deux chambres avec p
     
     <item>
       <title>29 - Maison Mérignac</title>
-      <link>./biens/0029/</link>
+      <link>./ventes/0029/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./biens/0029/</guid>
+      <guid>./ventes/0029/</guid>
       <description>Idéalement située dans un quartier recherché à deux pas du parc Bourran et de toutes commodités, venez découvrir cette maison familiale comprenant trois chambres, une salle d’eau, une cuisine indépendante, un salon de plus de 30 m² ouvert sur une agréable et spacieuse véranda orientée plein ouest donnant sur un jardin arboré et piscinable. Un grand garage indépendant complète le tout. De plus cette maison possède un beau potentiel d’agrandissement.</description>
     </item>
     
