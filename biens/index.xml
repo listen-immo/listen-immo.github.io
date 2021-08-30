@@ -11,13 +11,13 @@
     
     
     <item>
-      <title>40 - Appartement T2 - 49 m²</title>
-      <link>./biens/0040/</link>
+      <title>42 - Appartement T2 Pessac - 45 m²</title>
+      <link>./biens/0042/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./biens/0040/</guid>
-      <description>En exclusivité Listen Immo vous propose dans une résidence très calme et parfaitement entretenue par un gardien, cet appartement composé d’un séjour très lumineux (double exposition) avec une cuisine ouverte récemment aménagée et équipée donnant sur un extérieur verdoyant d’environ 6m² sans aucun vis-à-vis, d’une chambre avec placard de plus de 11m², d’une salle de bain, d’un WC séparé, et d’une place de parking.
-Un grand parc arboré avec tennis est mis à disposition des résidents.</description>
+      <guid>./biens/0042/</guid>
+      <description>Dans une résidence entretenue par un gardien, proche de toutes commodités, de la gare et du centre hospitalier Haut Lévêque, listen immo vous présente en exclusivité ce beau T2 refait à neuf comprenant une entrée avec rangement, une pièce de vie très lumineuse avec une cuisine indépendante et équipée, une chambre d’environ 11m², une salle de bain avec WC et une place de stationnement aérienne dédiée.
+De plus, vous pourrez profiter du calme du parc arboré de la résidence.</description>
     </item>
     
     <item>
@@ -49,6 +49,16 @@ Cet appartement atypique en souplex à finir de rénover, vous propose au 1er é
       <description>Périgord, Dordogne 24, Notre Dame de Sanilhac, belle demeure en pierre de 5 chambres spacieuses sur son parc arboré de 2000 m² piscinable.
 A 5 minutes du centre de Périgueux, cette grande demeure bourgeoise d&amp;rsquo;une très belle construction est accessible par 2 portails séparés.
 Au rez de chaussée, une entrée vous mène au séjour de 60 m² donnant sur une grande terrasse et un grand balcon avec barbecue, une cuisine séparée, 1 chambre et une suite parentale de presque 50 m2.</description>
+    </item>
+    
+    <item>
+      <title>40 - Appartement T2 Bègles- 49 m²</title>
+      <link>./biens/0040/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./biens/0040/</guid>
+      <description>En exclusivité Listen Immo vous propose dans une résidence très calme et parfaitement entretenue par un gardien, cet appartement composé d’un séjour très lumineux (double exposition) avec une cuisine ouverte récemment aménagée et équipée donnant sur un extérieur verdoyant d’environ 6m² sans aucun vis-à-vis, d’une chambre avec placard de plus de 11m², d’une salle de bain, d’un WC séparé, et d’une place de parking.
+Un grand parc arboré avec tennis est mis à disposition des résidents.</description>
     </item>
     
   </channel>
