@@ -1,0 +1,162 @@
+{
+  "default": {
+    "firstScene":"Entrée",
+    "author": "Listen Immo +",
+    "sceneFadeDuration": 1000
+  },
+  "scenes": {
+    "Entrée": {
+      "title": "Entrée",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "Entrée.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 45,
+          "type": "info",
+          "text": "Placards"
+        },
+        {
+          "pitch": 0,
+          "yaw": 10,
+          "type": "scene",
+          "text": "Vue générale",
+          "sceneId": "Salon0",
+          "targetYaw": 330,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "Salon0": {
+      "title": "Vue généale",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "Salon0.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 242,
+          "type": "scene",
+          "text": "Cuisine",
+          "sceneId": "Cuisine",
+          "targetYaw": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 280,
+          "type": "scene",
+          "text": "Salle de bain",
+          "sceneId": "Salle de bain",
+          "targetYaw": 0,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 297,
+          "type": "scene",
+          "text": "Chambre",
+          "sceneId": "Chambre",
+          "targetYaw": 0,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 0,
+          "type": "scene",
+          "text": "Salon",
+          "sceneId": "SALON",
+          "targetYaw": 210,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 100,
+          "type": "scene",
+          "text": "Entrée",
+          "sceneId": "Entrée",
+          "targetYaw": 0,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "Chambre": {
+      "title": "Chambre",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "Chambre.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 210,
+          "type": "scene",
+          "text": "Vue générale",
+          "sceneId": "Salon0",
+          "targetYaw": 0
+        }
+      ]
+    },
+   "SALON": {
+      "title": "Salon",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "Salon1.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 20,
+          "type": "scene",
+          "text": "Vue générale",
+          "sceneId": "Salon0",
+          "targetYaw": 330,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "Cuisine": {
+      "title": "Cuisine",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "Cuisine.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 190,
+          "type": "scene",
+          "text": "Vue générale",
+          "sceneId": "Salon0",
+          "targetYaw": 0
+        }
+      ]
+    },
+    "Salle de bain": {
+      "title": "Salle de bain",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 230,
+      "type": "equirectangular",
+      "panorama": "Salle de bain.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 190,
+          "type": "scene",
+          "text": "Vue générale",
+          "sceneId": "Salon0",
+          "targetYaw": 210,
+          "targetPitch": 0
+        }
+      ]
+    }
+  }
+}

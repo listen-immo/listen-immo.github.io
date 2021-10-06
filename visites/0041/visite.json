@@ -1,0 +1,542 @@
+{
+  "default": {
+    "firstScene":"VUE EXT PRINCIPALE",
+    "author": "Listen Immo +",
+    "sceneFadeDuration": 1000
+  },
+  "scenes": {
+    "ENTREE": {
+      "title": "Entrée",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "ENTREE.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 90,
+          "type": "scene",
+          "text": "1er étage",
+          "sceneId": "MEZZANINE",
+          "targetYaw": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 158,
+          "type": "scene",
+          "text": "Studio",
+          "sceneId": "STUDIO",
+          "targetYaw":  0,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 180,
+          "type": "scene",
+          "text": "Salon",
+          "sceneId": "SALON",
+          "targetYaw":  180,
+          "targetPitch": 0
+        },
+
+        {
+          "pitch": 0,
+          "yaw": 205,
+          "type": "scene",
+          "text": "Cuisine",
+          "sceneId": "CUISINE",
+          "targetYaw":  0,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 355,
+          "type": "scene",
+          "text": "jardin",
+          "sceneId": "VUE EXT PRINCIPALE",
+          "targetYaw": 180,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 310,
+          "type": "info",
+          "text": "Placards"
+        }
+      ]
+    },
+    "VUE EXT PRINCIPALE": {
+      "title": "Entrée extérieure",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "VUE EXT PRINCIPALE.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 182,
+          "type": "scene",
+          "text": "Entrée",
+          "sceneId": "ENTREE",
+          "targetYaw": 180
+        },
+        {
+          "pitch": 0,
+          "yaw": 240,
+          "type": "scene",
+          "text": "Allée Garage",
+          "sceneId": "ALLEE GARAGE",
+          "targetYaw": 180,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 150,
+          "type": "scene",
+          "text": "Vue Jardin coté",
+          "sceneId": "VUE EXT COTE",
+          "targetYaw": 210,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "VUE EXT COTE": {
+      "title": "Jardin coté",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "VUE EXT COTE.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 95,
+          "type": "scene",
+          "text": "Jardin Arriere",
+          "sceneId": "VUE EXT DERRIERE",
+          "targetYaw": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 220,
+          "type": "scene",
+          "text": "Jardin avant",
+          "sceneId": "VUE EXT PRINCIPALE",
+          "targetYaw": 180
+        }
+        ,
+        {
+          "pitch": 0,
+          "yaw": 190,
+          "type": "scene",
+          "text": "Allée garage",
+          "sceneId": "ALLEE GARAGE",
+          "targetYaw": 180
+        }
+      ]
+    },
+    "ALLEE GARAGE": {
+      "title": "Allée Garage",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "ALLEE GARAGE.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 180,
+          "type": "scene",
+          "text": "Garage",
+          "sceneId": "GARAGE",
+          "targetYaw": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 90,
+          "type": "scene",
+          "text": "Vue Jardin coté",
+          "sceneId": "VUE EXT COTE",
+          "targetYaw": 180
+        },
+        {
+          "pitch": 0,
+          "yaw": 40,
+          "type": "scene",
+          "text": "Jardin avant",
+          "sceneId": "VUE EXT PRINCIPALE",
+          "targetYaw": 180
+        }
+      ]
+    },
+    "BUREAU": {
+      "title": "Bureau",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "BUREAU.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 330,
+          "type": "scene",
+          "text": "Salon",
+          "sceneId": "SALON",
+          "targetYaw": 180,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 30,
+          "type": "scene",
+          "text": "Jardin arrière",
+          "sceneId": "VUE EXT DERRIERE",
+          "targetYaw": 0,
+          "targetPitch": 0
+        }
+      ]
+    },
+   "SALON": {
+      "title": "Salon",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "SALON.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 161,
+          "type": "info",
+          "text": "Toilettes"
+        },
+        {
+          "pitch": 0,
+          "yaw": 280,
+          "type": "info",
+          "text": "Petit salon"
+        },
+        {
+          "pitch": 0,
+          "yaw": 180,
+          "type": "scene",
+          "text": "Entrée",
+          "sceneId": "ENTREE",
+          "targetYaw": 180,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 0,
+          "type": "scene",
+          "text": "Jardin arrière",
+          "sceneId": "VUE EXT DERRIERE",
+          "targetYaw": 0,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 100,
+          "type": "info",
+          "text": "Salle à manger"
+        },
+        {
+          "pitch": 0,
+          "yaw": 75,
+          "type": "scene",
+          "text": "Bureau",
+          "sceneId": "BUREAU",
+          "targetYaw": 0,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "VUE EXT DERRIERE": {
+      "title": "Jardin arrière",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "VUE EXT DERRIERE.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 350,
+          "type": "scene",
+          "text": "Salon",
+          "sceneId": "SALON",
+          "targetYaw": 0,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 275,
+          "type": "scene",
+          "text": "Bureau",
+          "sceneId": "BUREAU",
+          "targetYaw": 0,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 35,
+          "type": "scene",
+          "text": "Jardin coté",
+          "sceneId": "VUE EXT COTE",
+          "targetYaw": 210,
+          "targetPitch": 0
+        }
+      ]
+    }, 
+    "STUDIO": {
+      "title": "Studio",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "STUDIO.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 280,
+          "type": "info",
+          "text": "Kitchenette"
+        },
+        {
+          "pitch": 0,
+          "yaw": 25,
+          "type": "info",
+          "text": "Placards"
+        },
+        {
+          "pitch": 0,
+          "yaw": 110,
+          "type": "scene",
+          "text": "Chambre",
+          "sceneId": "CHAMBRE 1",
+          "targetYaw": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 190,
+          "type": "scene",
+          "text": "Salle de bain",
+          "sceneId": "SALLE DE BAIN",
+          "targetYaw": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 0,
+          "type": "scene",
+          "text": "Entrée",
+          "sceneId": "ENTREE",
+          "targetYaw": 180
+        }
+      ]
+    },
+    "CHAMBRE 1": {
+      "title": "Chambre",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "CHAMBRE 1.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 30,
+          "type": "scene",
+          "text": "Studio",
+          "sceneId": "STUDIO",
+          "targetYaw": 0
+        }
+      ]
+    },
+    "SALLE DE BAIN": {
+      "title": "Salle de bain",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "SALLE DE BAIN.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 0,
+          "type": "scene",
+          "text": "Studio",
+          "sceneId": "STUDIO",
+          "targetYaw": 0
+        }
+      ]
+    },
+    "MEZZANINE": {
+      "title": "Mezzanine",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "MEZZANINE.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 290,
+          "type": "scene",
+          "text": "Chambre 3",
+          "sceneId": "CHAMBRE 3",
+          "targetYaw": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 90,
+          "type": "scene",
+          "text": "Chambre 2",
+          "sceneId": "CHAMBRE 2",
+          "targetYaw": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 320,
+          "type": "scene",
+          "text": "Salle d'eau",
+          "sceneId": "SALLE EAU",
+          "targetYaw": 0
+        },
+        {
+          "pitch": -10,
+          "yaw": 60,
+          "type": "scene",
+          "text": "RDC",
+          "sceneId": "ENTREE",
+          "targetYaw": 180
+        }
+      ]
+    },
+    "CUISINE": {
+      "title": "Cuisine",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "CUISINE.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 330,
+          "type": "scene",
+          "text": "Entrée",
+          "sceneId": "ENTREE",
+          "targetYaw": 180
+        },
+        {
+          "pitch": 0,
+          "yaw": 40,
+          "type": "scene",
+          "text": "Garage",
+          "sceneId": "GARAGE",
+          "targetYaw": 180
+        },
+        {
+          "pitch": 0,
+          "yaw": 0,
+          "type": "info",
+          "text": "Salle à manger"
+        }
+      ]
+    },
+    "GARAGE": {
+      "title": "Garage",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "GARAGE.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 60,
+          "type": "scene",
+          "text": "Cuisine",
+          "sceneId": "CUISINE",
+          "targetYaw": 0,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 0,
+          "type": "scene",
+          "text": "Allée Garage",
+          "sceneId": "ALLEE GARAGE",
+          "targetYaw": 0,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "CHAMBRE 2": {
+      "title": "Chambre 2",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 230,
+      "type": "equirectangular",
+      "panorama": "CHAMBRE 2.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 0,
+          "type": "scene",
+          "text": "Mezzanine",
+          "sceneId": "MEZZANINE",
+          "targetYaw": 0,
+          "targetPitch": 0
+        }
+      ]
+    },      
+      "CHAMBRE 3": {
+          "title": "Chambre 3",
+          "hfov": 500,
+          "pitch": 0,
+          "yaw": 230,
+          "type": "equirectangular",
+          "panorama": "CHAMBRE 3.jpg",
+          "hotSpots": [
+            {
+              "pitch": 0,
+              "yaw": 40,
+              "type": "scene",
+              "text": "Mezzanine",
+              "sceneId": "MEZZANINE",
+              "targetYaw": 0,
+              "targetPitch": 0
+            }
+      ]
+    },     
+      "SALLE EAU": {
+          "title": "Salle d'eau",
+          "hfov": 500,
+          "pitch": 0,
+          "yaw": 230,
+          "type": "equirectangular",
+          "panorama": "SALLE EAU.jpg",
+          "hotSpots": [
+            {
+              "pitch": 0,
+              "yaw": 0,
+              "type": "scene",
+              "text": "Mezzanine",
+              "sceneId": "MEZZANINE",
+              "targetYaw": 0,
+              "targetPitch": 0
+            },
+            {
+              "pitch": 0,
+              "yaw": 350,
+              "type": "info",
+              "text": "Toilettes"
+            }
+        ]
+      }
+  }
+}

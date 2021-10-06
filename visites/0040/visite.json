@@ -1,0 +1,257 @@
+{
+  "default": {
+    "firstScene":"Entrée",
+    "author": "Listen Immo +",
+    "sceneFadeDuration": 500
+  },
+  "scenes": {
+    "Entrée": {
+      "title": "ENTREE",
+      "hfov": 1000,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "ENTREE.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 50,
+          "type": "scene",
+          "text": "Pièce de vie",
+          "sceneId": "SALON",
+          "targetYaw": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 350,
+          "type": "scene",
+          "text": "Couloir",
+          "sceneId": "COULOIR",
+          "targetYaw": 330,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 300,
+          "type": "scene",
+          "text": "Toilettes",
+          "sceneId": "WC",
+          "targetYaw": 330,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 325,
+          "type": "scene",
+          "text": "Salle de bain",
+          "sceneId": "SALLEBAIN",
+          "targetYaw": 330,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "COULOIR": {
+      "title": "Couloir",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "COULOIR.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 190,
+          "type": "scene",
+          "text": "Entrée",
+          "sceneId": "Entrée",
+          "targetYaw": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 210,
+          "type": "scene",
+          "text": "Salle de Bain",
+          "sceneId": "SALLEBAIN",
+          "targetYaw": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 340,
+          "type": "scene",
+          "text": "Chambre",
+          "sceneId": "CHAMBRE",
+          "targetYaw": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 120,
+          "type": "info",
+          "text": "Placards"
+        }
+      ]
+    },
+    "CHAMBRE": {
+      "title": "Chambre",
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "CH1.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 15,
+          "type": "scene",
+          "text": "Couloir",
+          "sceneId": "COULOIR",
+          "targetYaw": 0
+        }
+      ]
+    },
+    "SALLEBAIN": {
+      "title": "Salle de Bain",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "SALLEBAIN.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 100,
+          "type": "scene",
+          "text": "Couloir",
+          "sceneId": "COULOIR",
+          "targetYaw": 0,
+          "targetPitch": 0
+        }
+      ]
+    },
+   "SALON": {
+      "title": "Pièce de vie",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "SALON1.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 20,
+          "type": "scene",
+          "text": "Autre vue Pièce de vie",
+          "sceneId": "SALON2",
+          "targetYaw": 0,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 0,
+          "type": "scene",
+          "text": "Balcon",
+          "sceneId": "BALCON",
+          "targetYaw": 330,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 320,
+          "type": "scene",
+          "text": "Cuisine",
+          "sceneId": "CUISINE",
+          "targetYaw": 330,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 230,
+          "type": "scene",
+          "text": "Entrée",
+          "sceneId": "Entrée",
+          "targetYaw": 0,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "SALON2": {
+      "title": "Autre vue du Salon",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "SALON2.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 320,
+          "type": "scene",
+          "text": "Pièce de vie",
+          "sceneId": "SALON",
+          "targetYaw": 0,
+          "targetPitch": 0
+        }
+      ]
+    }, 
+    "CUISINE": {
+      "title": "Cuisine",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "CUISINE.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 290,
+          "type": "scene",
+          "text": "Balcon",
+          "sceneId": "BALCON",
+          "targetYaw": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 0,
+          "type": "scene",
+          "text": "Pièce de vie",
+          "sceneId": "SALON",
+          "targetYaw": 0
+        }
+      ]
+    },
+    "BALCON": {
+      "title": "Balcon",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "BALCON.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 350,
+          "type": "scene",
+          "text": "Pièce de vie",
+          "sceneId": "SALON",
+          "targetYaw": 0
+        }
+      ]
+    },
+        "WC": {
+          "title": "Toilettes",
+          "pitch": 0,
+          "hfov": 500,
+          "yaw": 180,
+          "type": "equirectangular",
+          "panorama": "WC.jpg",
+          "hotSpots": [
+            {
+              "pitch": 0,
+              "yaw": 150,
+              "type": "scene",
+              "text": "Entrée",
+              "sceneId": "Entrée",
+              "targetYaw": 0
+            }
+      ]
+    }
+  }
+}
