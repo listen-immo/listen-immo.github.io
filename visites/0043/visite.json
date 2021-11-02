@@ -1,0 +1,316 @@
+{
+  "default": {
+    "firstScene":"Entree",
+    "author": "Listen Immo +",
+    "sceneFadeDuration": 1000
+  },
+  "scenes": {
+    "Entree": {
+      "title": "Entrée",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "Entree.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 10,
+          "type": "info",
+          "text": "Entrée"
+        },
+        {
+          "pitch": 0,
+          "yaw": 220,
+          "type": "scene",
+          "text": "Vers 1er etage",
+          "sceneId": "Salon",
+          "targetYaw": 330,
+          "targetPitch": 0
+        },
+        {
+          "pitch": -30,
+          "yaw": 190,
+          "type": "scene",
+          "text": "Palier",
+          "sceneId": "Escalier",
+          "targetYaw": 45,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "Salon": {
+      "title": "Pièce de vie",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "Salon.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 220,
+          "type": "scene",
+          "text": "Cuisine",
+          "sceneId": "Cuisine",
+          "targetYaw": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 230,
+          "type": "info",
+          "text": "WC"
+        },
+        {
+          "pitch": 0,
+          "yaw": 245,
+          "type": "scene",
+          "text": "Salle d'eau",
+          "sceneId": "Salle Eau",
+          "targetYaw": 0,
+          "targetPitch": 0
+        },
+        {
+          "pitch": -25,
+          "yaw": 170,
+          "type": "scene",
+          "text": "Entrée",
+          "sceneId": "Entree",
+          "targetYaw": 0,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "Chambre 1": {
+      "title": "Chambre/Bureau",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "Chambre 1.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 180,
+          "type": "scene",
+          "text": "Cuisine",
+          "sceneId": "Cuisine",
+          "targetYaw": 0
+        }
+      ]
+    },
+    "Cuisine": {
+      "title": "Cuisine",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "Cuisine.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 230,
+          "type": "info",
+          "text": "WC"
+        },
+        {
+          "pitch": 0,
+          "yaw": 30,
+          "type": "scene",
+          "text": "Salon",
+          "sceneId": "Salon",
+          "targetYaw": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 350,
+          "type": "scene",
+          "text": "Chambre/Bureau",
+          "sceneId": "Chambre 1",
+          "targetYaw": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 290,
+          "type": "scene",
+          "text": "Salle d'eau",
+          "sceneId": "Salle Eau",
+          "targetYaw": 0
+        }
+      ]
+    },
+    "Salle Eau": {
+      "title": "Salle d'eau'",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 230,
+      "type": "equirectangular",
+      "panorama": "Salle Eau.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 150,
+          "type": "scene",
+          "text": "Cuisine",
+          "sceneId": "Cuisine",
+          "targetYaw": 0,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "Escalier": {
+      "title": "Palier",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "Escalier.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 90,
+          "type": "scene",
+          "text": "Entrée",
+          "sceneId": "Entree",
+          "targetYaw": 0
+        },
+        {
+          "pitch": -20,
+          "yaw": 20,
+          "type": "scene",
+          "text": "Souplex",
+          "sceneId": "Bas Escalier",
+          "targetYaw": 190
+        }
+      ]
+    },
+    "Bas Escalier": {
+      "title": "Souplex",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "Bas escalier.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 0,
+          "type": "scene",
+          "text": "Palier",
+          "sceneId": "Escalier",
+          "targetYaw": 45
+        },
+        {
+          "pitch": 0,
+          "yaw": 180,
+          "type": "scene",
+          "text": "Chambre 2",
+          "sceneId": "Chambre 2",
+          "targetYaw": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 100,
+          "type": "scene",
+          "text": "Degagement",
+          "sceneId": "Degagement",
+          "targetYaw": 90
+        }
+      ]
+    },
+    "Chambre 2": {
+      "title": "Palier",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "Chambre 2.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 0,
+          "type": "scene",
+          "text": "Bas Escalier",
+          "sceneId": "Bas Escalier",
+          "targetYaw": 190
+        }
+      ]
+    },
+    "Degagement": {
+      "title": "Dégagement",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "Degagement.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 260,
+          "type": "info",
+          "text": "Buanderie"
+        },
+        {
+          "pitch": 0,
+          "yaw": 0,
+          "type": "scene",
+          "text": "Chambre 3",
+          "sceneId": "Chambre 3",
+          "targetYaw": 220
+        },
+        {
+          "pitch": 0,
+          "yaw": 180,
+          "type": "scene",
+          "text": "Salle de Bain",
+          "sceneId": "Salle Bain",
+          "targetYaw": 140
+        },
+        {
+          "pitch": -10,
+          "yaw": 90,
+          "type": "scene",
+          "text": "Bas Escalier",
+          "sceneId": "Bas Escalier",
+          "targetYaw": 45
+        }
+      ]
+    },
+    "Chambre 3": {
+      "title": "Palier",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "Chambre 3.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 340,
+          "type": "scene",
+          "text": "Dégagement",
+          "sceneId": "Degagement",
+          "targetYaw": 0
+        }
+      ]
+    },
+    "Salle Bain": {
+      "title": "Salle de bain",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "Salle Bain.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 140,
+          "type": "scene",
+          "text": "Dégagement",
+          "sceneId": "Degagement",
+          "targetYaw": 0
+        }
+      ]
+    }
+  }
+}
