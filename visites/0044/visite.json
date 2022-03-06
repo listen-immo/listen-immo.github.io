@@ -1,0 +1,302 @@
+{
+  "default": {
+    "firstScene":"Entree",
+    "author": "Listen Immo +",
+    "sceneFadeDuration": 1000
+  },
+  "scenes": {
+    "Entree": {
+      "title": "Entrée",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "Entree.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 0,
+          "type": "info",
+          "text": "Entrée"
+        },
+        {
+          "pitch": 0,
+          "yaw": 280,
+          "type": "info",
+          "text": "Placard"
+        },
+        {
+          "pitch": 0,
+          "yaw": 330,
+          "type": "info",
+          "text": "Placard"
+        },
+        {
+          "pitch": 0,
+          "yaw": 220,
+          "type": "scene",
+          "text": "Salon - Salle à Manger",
+          "sceneId": "Salon",
+          "targetYaw": 330,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 240,
+          "type": "scene",
+          "text": "Cuisine",
+          "sceneId": "Cuisine",
+          "targetYaw": 180,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 190,
+          "type": "scene",
+          "text": "Couloir",
+          "sceneId": "Couloir",
+          "targetYaw": 0,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "Salon": {
+      "title": "Salon - Salle à manger",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "Salon.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 220,
+          "type": "scene",
+          "text": "Entrée",
+          "sceneId": "Entree",
+          "targetYaw": 180
+        },
+        {
+          "pitch": 0,
+          "yaw": 320,
+          "type": "scene",
+          "text": "Couloir",
+          "sceneId": "Couloir",
+          "targetYaw": 270
+        },
+        {
+          "pitch": 0,
+          "yaw": 60,
+          "type": "scene",
+          "text": "Balcon",
+          "sceneId": "Balcon",
+          "targetYaw": 90,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "Chambre 1": {
+      "title": "Chambre/Bureau",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "Chambre 1.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 190,
+          "type": "info",
+          "text": "Balcon"
+        },
+        {
+          "pitch": 0,
+          "yaw": 10,
+          "type": "scene",
+          "text": "Couloir",
+          "sceneId": "Couloir",
+          "targetYaw": 270
+        }
+      ]
+    },
+    "Cuisine": {
+      "title": "Cuisine",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "Cuisine.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 170,
+          "type": "info",
+          "text": "Accès balcon"
+        },
+        {
+          "pitch": 0,
+          "yaw": 10,
+          "type": "scene",
+          "text": "Entrée",
+          "sceneId": "Entree",
+          "targetYaw": 180
+        }
+      ]
+    },
+    "Salle Eau": {
+      "title": "Salle d'eau'",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 230,
+      "type": "equirectangular",
+      "panorama": "Salle Eau.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 300,
+          "type": "scene",
+          "text": "Couloir",
+          "sceneId": "Couloir",
+          "targetYaw": 270,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "Chambre 2": {
+      "title": "Palier",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "Chambre 2.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 30,
+          "type": "info",
+          "text": "Salle d'eau 2"
+        },
+        {
+          "pitch": 0,
+          "yaw": 190,
+          "type": "info",
+          "text": "Accès balcon"
+        },
+        {
+          "pitch": 0,
+          "yaw": 350,
+          "type": "scene",
+          "text": "Couloir",
+          "sceneId": "Couloir",
+          "targetYaw": 190
+        }
+      ]
+    },
+    "Couloir": {
+      "title": "Couloir",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "Couloir.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 197,
+          "type": "info",
+          "text": "WC1"
+        },
+        {
+          "pitch": 0,
+          "yaw": 0,
+          "type": "info",
+          "text": "WC2"
+        },
+        {
+          "pitch": 0,
+          "yaw": 190,
+          "type": "scene",
+          "text": "Entrée",
+          "sceneId": "Entree",
+          "targetYaw": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 205,
+          "type": "scene",
+          "text": "Dressing",
+          "sceneId": "Dressing",
+          "targetYaw": 0
+        },
+        {
+          "pitch": 0,
+          "yaw":295,
+          "type": "scene",
+          "text": "Salle d'eau",
+          "sceneId": "Salle Eau",
+          "targetYaw": 90
+        },
+        {
+          "pitch": 0,
+          "yaw": 285,
+          "type": "scene",
+          "text": "Chambre 1",
+          "sceneId": "Chambre 1",
+          "targetYaw": 180
+        },
+        {
+          "pitch": 0,
+          "yaw": 275,
+          "type": "scene",
+          "text": "Chambre 2",
+          "sceneId": "Chambre 2",
+          "targetYaw": 180
+        },
+        {
+          "pitch": 0,
+          "yaw": 80,
+          "type": "scene",
+          "text": "Salon - Salle à Manger",
+          "sceneId": "Salon",
+          "targetYaw": 0
+        }
+      ]
+    },
+    "Balcon": {
+      "title": "Balcon",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "Balcon.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 300,
+          "type": "scene",
+          "text": "Salon - Salle à manger",
+          "sceneId": "Salon",
+          "targetYaw": 0
+        }
+      ]
+    },
+    "Dressing": {
+      "title": "Dressing",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "Dressing.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 120,
+          "type": "scene",
+          "text": "Couloir",
+          "sceneId": "Couloir",
+          "targetYaw": 0
+        }
+      ]
+    }
+  }
+}
