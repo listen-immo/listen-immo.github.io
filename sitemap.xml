@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>./biens/0048/</loc>
+  </url>
+  
+  <url>
     <loc>./archives/0032/</loc>
   </url>
   
@@ -59,11 +63,11 @@
   </url>
   
   <url>
-    <loc>./biens/0042/</loc>
+    <loc>./ventes/0042/</loc>
   </url>
   
   <url>
-    <loc>./biens/0041/</loc>
+    <loc>./ventes/0041/</loc>
   </url>
   
   <url>

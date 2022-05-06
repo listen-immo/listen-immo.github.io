@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>Appartement Bègles</title>
+      <link>./biens/0048/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./biens/0048/</guid>
+      <description>Dans une rue calme proche du tramway C (10 min à pied), vous découvrirez une magnifique façade pierre d&amp;rsquo;un immeuble. L&amp;rsquo;appartement a son entrée privative, comme une maison ! Cet appartement atypique sur 3 niveaux , vous propose au 1er étage, une pièce de vie avec cuisine ouverte, aménagée, une salle à manger de 12 m2 (ou la 3e chambre) ,une salle d&amp;rsquo;eau et un WC. En souplex 2 chambres et une salle de bain.</description>
+    </item>
+    
+    <item>
       <title>Demeure Dordogne - 260m²</title>
       <link>./archives/0032/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -151,20 +160,20 @@ D’une surface totale de 96,5m², traversant, il est composé d’un côté d�
     
     <item>
       <title>Appartement T2 Pessac - 45m²</title>
-      <link>./biens/0042/</link>
+      <link>./ventes/0042/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./biens/0042/</guid>
+      <guid>./ventes/0042/</guid>
       <description>Dans une résidence entretenue par un gardien, proche de toutes commodités, de la gare et du centre hospitalier Haut Lévêque, listen immo vous présente en exclusivité ce beau T2 refait à neuf comprenant une entrée avec rangement, une pièce de vie très lumineuse avec une cuisine indépendante et équipée, une chambre d’environ 11m², une salle de bain avec WC et une place de stationnement aérienne dédiée.
 De plus, vous pourrez profiter du calme du parc arboré de la résidence.</description>
     </item>
     
     <item>
       <title>Maison 6 pièces Pessac - 160m²</title>
-      <link>./biens/0041/</link>
+      <link>./ventes/0041/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./biens/0041/</guid>
+      <guid>./ventes/0041/</guid>
       <description>Listen Immo+ vous propose une maison à rénover à fort potentiel avec de généreux volumes. Elle répondra à tous vos projets quels qu’ils soient, maison familiale, profession libéral, investissement locatif… Elle se compose de quatre chambres, d’une mezzanine surplombant un salon salle à manger très lumineux de 45 m² donnant sur l’une des deux terrasses.
 Un jardin arboré de 760 m² piscinable, un garage d’environ 30 m² et un abri de jardin complètent le tout.</description>
     </item>
