@@ -1,21 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Listen IMMO&#43;</title>
     <link>./</link>
     <description>Recent content on Listen IMMO&#43;</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr</language>
-    
-	<atom:link href="./index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>fr</language><atom:link href="./index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Appartement Bègles</title>
-      <link>./biens/0048/</link>
+      <link>./ventes/0048/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./biens/0048/</guid>
+      <guid>./ventes/0048/</guid>
       <description>Dans une rue calme proche du tramway C (10 min à pied), vous découvrirez une magnifique façade pierre d&amp;rsquo;un immeuble. L&amp;rsquo;appartement a son entrée privative, comme une maison ! Cet appartement atypique sur 3 niveaux , vous propose au 1er étage, une pièce de vie avec cuisine ouverte, aménagée, une salle à manger de 12 m2 (ou la 3e chambre) ,une salle d&amp;rsquo;eau et un WC. En souplex 2 chambres et une salle de bain.</description>
     </item>
     
@@ -352,10 +348,10 @@ Listen Immo +, Cathy Brisou agent commercial N° 809933500.</description>
     
     <item>
       <title>18 - Appartement Talence</title>
-      <link>./ventes/0018/</link>
+      <link>./archives/0018/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./ventes/0018/</guid>
+      <guid>./archives/0018/</guid>
       <description>Entre facultés, commerces, parc et tram B, venez découvrir ce beau T3 lumineux offrant de grands volumes et rangements.
 Idéal pour un premier achat ou investissement locatif. Aucuns travaux à prévoir.
 Copropriété de 18 lots - Charges annuelles de 1 635€.
@@ -365,10 +361,10 @@ Prix du bien hors honoraires : 288 000€</description>
     
     <item>
       <title>21 - Appartement Mérignac</title>
-      <link>./ventes/0021/</link>
+      <link>./archives/0021/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./ventes/0021/</guid>
+      <guid>./archives/0021/</guid>
       <description>Appartement lumineux, en très bon état et au dernier étage d&amp;rsquo;une résidence bien entretenue. Il est composé d&amp;rsquo;un séjour, d&amp;rsquo;une cuisine (ces 2 pièces donnant sur un beau balcon) de deux chambres, d&amp;rsquo;une salle de bain et de toilettes séparées. L&amp;rsquo;appartement est vendu avec sa place de parking. La résidence comprends 215 lots dont 127 d&amp;rsquo;habitation. Les charges annuelles sont d&amp;rsquo;environ 1050€.
 Prix HAI : 225 000€ Honoraires TTC inclus à la charge de l’acquéreur de 3,5% du bien hors honoraires.</description>
     </item>

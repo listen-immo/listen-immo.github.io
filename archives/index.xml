@@ -1,15 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Archives on Listen IMMO&#43;</title>
     <link>./archives/</link>
     <description>Recent content in Archives on Listen IMMO&#43;</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr</language>
-    
-	<atom:link href="./archives/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>fr</language><atom:link href="./archives/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Demeure Dordogne - 260m²</title>
       <link>./archives/0032/</link>
@@ -89,6 +85,29 @@ Il se compose d’une vaste entrée avec placard desservant deux chambres avec p
       
       <guid>./archives/0037/</guid>
       <description>Dans un quartier calme et recherché, à deux pas du CHU et de toutes commodités, Listen Immo vous propose dans une petite copropriété de 3 étages cet agréable T4 comprenant une vaste entrée avec rangements, une cuisine aménagée et équipée avec cellier, un grand salon salle à manger très lumineux donnant sur une terrasse orientée plein sud d’environ 20m², deux chambres avec placard (possibilité trois), une salle de bain, une salle d’eau, et un WC indépendant.</description>
+    </item>
+    
+    <item>
+      <title>18 - Appartement Talence</title>
+      <link>./archives/0018/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./archives/0018/</guid>
+      <description>Entre facultés, commerces, parc et tram B, venez découvrir ce beau T3 lumineux offrant de grands volumes et rangements.
+Idéal pour un premier achat ou investissement locatif. Aucuns travaux à prévoir.
+Copropriété de 18 lots - Charges annuelles de 1 635€.
+Prix HAI : 298 000€ Honoraires TTC inclus à la charge de l’acquéreur de 3,5% du bien hors honoraires.
+Prix du bien hors honoraires : 288 000€</description>
+    </item>
+    
+    <item>
+      <title>21 - Appartement Mérignac</title>
+      <link>./archives/0021/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./archives/0021/</guid>
+      <description>Appartement lumineux, en très bon état et au dernier étage d&amp;rsquo;une résidence bien entretenue. Il est composé d&amp;rsquo;un séjour, d&amp;rsquo;une cuisine (ces 2 pièces donnant sur un beau balcon) de deux chambres, d&amp;rsquo;une salle de bain et de toilettes séparées. L&amp;rsquo;appartement est vendu avec sa place de parking. La résidence comprends 215 lots dont 127 d&amp;rsquo;habitation. Les charges annuelles sont d&amp;rsquo;environ 1050€.
+Prix HAI : 225 000€ Honoraires TTC inclus à la charge de l’acquéreur de 3,5% du bien hors honoraires.</description>
     </item>
     
     <item>
