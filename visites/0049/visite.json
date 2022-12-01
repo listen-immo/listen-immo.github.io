@@ -1,0 +1,454 @@
+{
+  "default": {
+    "firstScene":"ENTREE COMMUNS",
+    "author": "Listen Immo +",
+    "sceneFadeDuration": 1000
+  },
+  "scenes": {
+  "ENTREE COMMUNS": {
+    "title": "ENTREE COMMUNS",
+    "hfov": 500,
+    "pitch": 0,
+    "yaw": 45,
+    "type": "equirectangular",
+    "panorama": "ENTREE COMMUNS.jpg",
+    "hotSpots": [
+      {
+        "pitch": 0,
+        "yaw": 0,
+        "type": "info",
+        "text": "Ascenseur"
+      },
+      {
+        "pitch": -10,
+        "yaw": 70,
+        "type": "info",
+        "text": "Rue"
+      },
+      {
+        "pitch": 0,
+        "yaw": 180,
+        "type": "scene",
+        "text": "Entrée Appartement",
+        "sceneId": "ENTREE",
+        "targetYaw": 60,
+        "targetPitch": 0
+      }
+    ]
+  },
+  "COULOIR2": {
+      "title": "Couloir 2",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "COULOIR2.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 290,
+          "type": "scene",
+          "text": "Buanderie",
+          "sceneId": "BUANDERIE",
+          "targetYaw": 0,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 90,
+          "type": "scene",
+          "text": "Salle de bain 2",
+          "sceneId": "SDB2",
+          "targetYaw": 355,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 360,
+          "type": "scene",
+          "text": "Salon",
+          "sceneId": "SALON",
+          "targetYaw": 90,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 180,
+          "type": "scene",
+          "text": "Chambre 1",
+          "sceneId": "CH1",
+          "targetYaw": 0,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 200,
+          "type": "scene",
+          "text": "Chambre 2",
+          "sceneId": "CH2",
+          "targetYaw": 90,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "SDB2": {
+      "title": "Salle de bain 2",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "SDB2.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 180,
+          "type": "scene",
+          "text": "Couloir",
+          "sceneId": "COULOIR2",
+          "targetYaw": 180,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "BUANDERIE": {
+      "title": "Buanderie",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "BUANDERIE.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 180,
+          "type": "scene",
+          "text": "Couloir",
+          "sceneId": "COULOIR2",
+          "targetYaw": 180
+        }
+      ]
+    },
+    "CHSUITE": {
+      "title": "Chambre suite",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "CHSUITE.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 30,
+          "type": "scene",
+          "text": "Terrasse",
+          "sceneId": "TERRASSE",
+          "targetYaw": 180
+        },
+        {
+          "pitch": 0,
+          "yaw": 170,
+          "type": "scene",
+          "text": "Vers entrée",
+          "sceneId": "ENTREE SUITE",
+          "targetYaw": 0
+        }
+      ]
+    },
+    "SDB SUITE": {
+      "title": "Salle de bain suite",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "SDB SUITE.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 30, 
+          "type": "scene",
+          "text": "Vers entrée",
+          "sceneId": "ENTREE SUITE",
+          "targetYaw": 0,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "CH2": {
+      "title": "Chambre 2",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "CH2.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 310,
+          "type": "scene",
+          "text": "Couloir",
+          "sceneId": "COULOIR2",
+          "targetYaw": 180,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "CH1": {
+      "title": "Chambre 1",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "CH1.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 340,
+          "type": "scene",
+          "text": "Couloir",
+          "sceneId": "COULOIR2",
+          "targetYaw": 180,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "ENTREE": {
+      "title": "Entrée",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "ENTREE.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 90,
+          "type": "scene",
+          "text": "Vers Suite parentale",
+          "sceneId": "ENTREE SUITE",
+          "targetYaw": 0
+        },
+        {
+          "pitch": 10,
+          "yaw": 190,
+          "type": "scene",
+          "text": "Communs",
+          "sceneId": "ENTREE COMMUNS",
+          "targetYaw": 50
+        },
+        {
+          "pitch": 0,
+          "yaw": 20,
+          "type": "info",
+          "text": "Placard"
+        },
+        {
+          "pitch": 0,
+          "yaw": 0,
+          "type": "scene",
+          "text": "Couloir",
+          "sceneId": "COULOIR",
+          "targetYaw": 135
+        }
+      ]
+    },
+    "COULOIR": {
+      "title": "Couloir",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 90,
+      "type": "equirectangular",
+      "panorama": "COULOIR.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 90,
+          "type": "scene",
+          "text": "Cuisine",
+          "sceneId": "CUISINE",
+          "targetYaw": 180
+        },
+        {
+          "pitch": 0,
+          "yaw": 55,
+          "type": "scene",
+          "text": "Salon",
+          "sceneId": "SALON",
+          "targetYaw": 90
+        },
+        {
+          "pitch": 0,
+          "yaw": 160,
+          "type": "info",
+          "text": "Placard"
+        },
+        {
+          "pitch": 0,
+          "yaw": 180,
+          "type": "scene",
+          "text": "Entrée",
+          "sceneId": "ENTREE",
+          "targetYaw": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 120,
+          "type": "scene",
+          "text": "WC",
+          "sceneId": "WC",
+          "targetYaw": 270
+        }
+      ]
+    },
+    "WC": {
+      "title": "WC",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "WC.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 270,
+          "type": "scene",
+          "text": "Couloir",
+          "sceneId": "COULOIR",
+          "targetYaw": 180
+        }
+      ]
+    },
+    "CUISINE": {
+      "title": "Cuisine",
+      "pitch": 0,
+      "yaw": 180,
+      "hfov": 500,
+      "type": "equirectangular",
+      "panorama": "CUISINE.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 190,
+          "type": "scene",
+          "text": "Terrasse",
+          "sceneId": "TERRASSE",
+          "targetYaw": 180
+        },
+        {
+          "pitch": 0,
+          "yaw": 0,
+          "type": "scene",
+          "text": "Couloir",
+          "sceneId": "COULOIR",
+          "targetYaw": 135
+        }
+      ]
+    },
+    "ENTREE SUITE": {
+      "title": "Entrée suite parentale",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "ENTREE SUITE.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 270,
+          "type": "scene",
+          "text": "Salle de bain",
+          "sceneId": "SDB SUITE",
+          "targetYaw": 180
+        },
+        {
+          "pitch": 0,
+          "yaw": 10,
+          "type": "scene",
+          "text": "Chambre suite",
+          "sceneId": "CHSUITE",
+          "targetYaw": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 180,
+          "type": "scene",
+          "text": "vers entrée",
+          "sceneId": "ENTREE",
+          "targetYaw": 90
+        }
+      ]
+    },
+    "SALON": {
+      "title": "Salon",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 90,
+      "type": "equirectangular",
+      "panorama": "SALON.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 90,
+          "type": "scene",
+          "text": "Terrasse",
+          "sceneId": "TERRASSE",
+          "targetYaw": 180,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 210,
+          "type": "scene",
+          "text": "Couloir",
+          "sceneId": "COULOIR",
+          "targetYaw": 135,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 275,
+          "type": "scene",
+          "text": "Couloir2",
+          "sceneId": "COULOIR2",
+          "targetYaw": 180,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "TERRASSE": {
+      "title": "ACCES TERRASSE",
+      "pitch": 0,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "TERRASSE.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 320,
+          "type": "scene",
+          "text": "Chambre Suite",
+          "sceneId": "CHSUITE",
+          "targetYaw": 330,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 40,
+          "type": "scene",
+          "text": "Cuisine",
+          "sceneId": "CUISINE",
+          "targetYaw": 0,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 70,
+          "type": "scene",
+          "text": "Salon",
+          "sceneId": "SALON",
+          "targetYaw": 90,
+          "targetPitch": 0
+        }
+      ]
+    }
+   }
+}
