@@ -1,0 +1,302 @@
+{
+  "default": {
+    "firstScene":"ENTREE",
+    "author": "Listen Immo +",
+    "sceneFadeDuration": 1000
+  },
+  "scenes": {
+  "ENTREE": {
+    "title": "ENTREE",
+    "hfov": 500,
+    "pitch": 0,
+    "yaw": 180,
+    "type": "equirectangular",
+    "panorama": "ENTREE.jpg",
+    "hotSpots": [
+      {
+        "pitch": 0,
+        "yaw": 0,
+        "type": "info",
+        "text": "Porte d'entrée"
+      },
+      {
+        "pitch": 0,
+        "yaw": 60,
+        "type": "info",
+        "text": "Placards"
+      },
+      {
+        "pitch": 0,
+        "yaw": 180,
+        "type": "scene",
+        "text": "Pièce de vie",
+        "sceneId": "CUISINE",
+        "targetYaw": 180,
+        "targetPitch": 0
+      },
+      {
+        "pitch": 0,
+        "yaw": 210,
+        "type": "scene",
+        "text": "Toilettes",
+        "sceneId": "WC",
+        "targetYaw": 60,
+        "targetPitch": 0
+      },
+      {
+        "pitch": 0,
+        "yaw": 140,
+        "type": "scene",
+        "text": "chambre",
+        "sceneId": "CHAMBRE2",
+        "targetYaw": 180,
+        "targetPitch": 0
+      },
+      {
+        "pitch": 0,
+        "yaw": 70,
+        "type": "scene",
+        "text": "Couloir",
+        "sceneId": "COULOIR",
+        "targetYaw": 160,
+        "targetPitch": 0
+      }
+    ]
+  },
+    "CELLIER": {
+      "title": "Cellier",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "CELLIER.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 0,
+          "type": "scene",
+          "text": "Couloir",
+          "sceneId": "CUISINE",
+          "targetYaw": 180
+        }
+      ]
+    },
+    "CHAMBRE1": {
+      "title": "Chambre",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "CHAMBRE1.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 0,
+          "type": "scene",
+          "text": "Vers couloir",
+          "sceneId": "COULOIR",
+          "targetYaw": 0
+        }
+      ]
+    },
+    "SDE": {
+      "title": "Salle d'eau'",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "SDE.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 0, 
+          "type": "scene",
+          "text": "Vers couloir",
+          "sceneId": "COULOIR",
+          "targetYaw": 0,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "CHAMBRE2": {
+      "title": "Chambre",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "CHAMBRE2.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 20,
+          "type": "scene",
+          "text": "Entrée",
+          "sceneId": "ENTREE",
+          "targetYaw": 180,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 60,
+          "type": "info",
+          "text": "Placards"
+        }
+      ]
+    },
+    "COULOIR": {
+      "title": "Couloir",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 90,
+      "type": "equirectangular",
+      "panorama": "COULOIR.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 190,
+          "type": "scene",
+          "text": "Chambre",
+          "sceneId": "CHAMBRE1",
+          "targetYaw": 180
+        },
+        {
+          "pitch": 0,
+          "yaw": 170,
+          "type": "scene",
+          "text": "Salle d'eau",
+          "sceneId": "SDE",
+          "targetYaw": 90
+        },
+        {
+          "pitch": 0,
+          "yaw": 240,
+          "type": "info",
+          "text": "Placard"
+        },
+        {
+          "pitch": 0,
+          "yaw": 340,
+          "type": "scene",
+          "text": "Entrée",
+          "sceneId": "ENTREE",
+          "targetYaw": 180
+        }
+      ]
+    },
+    "WC": {
+      "title": "WC",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "WC.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 20,
+          "type": "scene",
+          "text": "Couloir",
+          "sceneId": "ENTREE",
+          "targetYaw": 180
+        }
+      ]
+    },
+    "CUISINE": {
+      "title": "Cuisine",
+      "pitch": 0,
+      "yaw": 180,
+      "hfov": 500,
+      "type": "equirectangular",
+      "panorama": "CUISINE.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 340,
+          "type": "scene",
+          "text": "Cellier",
+          "sceneId": "CELLIER",
+          "targetYaw": 180
+        },
+        {
+          "pitch": 0,
+          "yaw": 130,
+          "type": "scene",
+          "text": "Vers Balcon",
+          "sceneId": "BALCON",
+          "targetYaw": 180
+        },
+        {
+          "pitch": 0,
+          "yaw": 180,
+          "type": "scene",
+          "text": "Salon",
+          "sceneId": "SALON",
+          "targetYaw": 180
+        },
+        {
+          "pitch": 0,
+          "yaw": 10,
+          "type": "scene",
+          "text": "Entrée",
+          "sceneId": "ENTREE",
+          "targetYaw": 180
+        }
+      ]
+    },
+    "SALON": {
+      "title": "Salon",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 90,
+      "type": "equirectangular",
+      "panorama": "SALON.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 90,
+          "type": "scene",
+          "text": "Vers Balcon",
+          "sceneId": "BALCON",
+          "targetYaw": 180,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 340,
+          "type": "scene",
+          "text": "Cuisine",
+          "sceneId": "CUISINE",
+          "targetYaw": 270,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "BALCON": {
+      "title": "BALCON",
+      "pitch": 0,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "BALCON.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 320,
+          "type": "scene",
+          "text": "Vers salon",
+          "sceneId": "SALON",
+          "targetYaw": 330,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 40,
+          "type": "scene",
+          "text": "Vers cuisine",
+          "sceneId": "CUISINE",
+          "targetYaw": 290,
+          "targetPitch": 0
+        }
+      ]
+    }
+   }
+}
