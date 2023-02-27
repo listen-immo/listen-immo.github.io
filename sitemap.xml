@@ -2,15 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>./ventes/0048/</loc>
-  </url><url>
     <loc>./biens/0051/</loc>
   </url><url>
     <loc>./archives/0032/</loc>
   </url><url>
     <loc>./archives/0015/</loc>
-  </url><url>
-    <loc>./ventes/0040/</loc>
   </url><url>
     <loc>./archives/0012/</loc>
   </url><url>
@@ -20,27 +16,31 @@
   </url><url>
     <loc>./archives/0031/</loc>
   </url><url>
-    <loc>./ventes/0033/</loc>
-  </url><url>
     <loc>./archives/0034/</loc>
   </url><url>
     <loc>./archives/0037/</loc>
   </url><url>
-    <loc>./ventes/0029/</loc>
-  </url><url>
     <loc>./biens/0049/</loc>
   </url><url>
-    <loc>./ventes/0046/</loc>
+    <loc>./archives/0048/</loc>
   </url><url>
     <loc>./archives/0045/</loc>
   </url><url>
-    <loc>./biens/0044/</loc>
+    <loc>./ventes/0044/</loc>
+  </url><url>
+    <loc>./ventes/0046/</loc>
   </url><url>
     <loc>./ventes/0042/</loc>
   </url><url>
     <loc>./ventes/0041/</loc>
   </url><url>
+    <loc>./ventes/0040/</loc>
+  </url><url>
     <loc>./biens/0039/</loc>
+  </url><url>
+    <loc>./ventes/0033/</loc>
+  </url><url>
+    <loc>./ventes/0029/</loc>
   </url><url>
     <loc>./visites/0039/</loc>
   </url><url>
@@ -84,7 +84,7 @@
   </url><url>
     <loc>./archives/0021/</loc>
   </url><url>
-    <loc>./ventes/0022/</loc>
+    <loc>./archives/0022/</loc>
   </url><url>
     <loc>./archives/0027/</loc>
   </url><url>
