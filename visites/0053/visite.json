@@ -1,0 +1,224 @@
+{
+  "default": {
+    "firstScene":"PIECE DE VIE",
+    "author": "Listen Immo +",
+    "sceneFadeDuration": 1000
+  },
+  "scenes": {
+  "PIECE DE VIE": {
+    "title": "PIECE DE VIE",
+    "hfov": 500,
+    "pitch": 0,
+    "yaw": 180,
+    "type": "equirectangular",
+    "panorama": "PIECE DE VIE.jpg",
+    "hotSpots": [
+      {
+        "pitch": 0,
+        "yaw": 20,
+        "type": "info",
+        "text": "Porte d'entrée"
+      },
+      {
+        "pitch": 0,
+        "yaw": 80,
+        "type": "info",
+        "text": "Accès Sous-sol"
+      },
+      {
+        "pitch": 0,
+        "yaw": 132,
+        "type": "info",
+        "text": "WC"
+      },
+      {
+        "pitch": 0,
+        "yaw": 100,
+        "type": "scene",
+        "text": "chambre1",
+        "sceneId": "CH1",
+        "targetYaw": 180,
+        "targetPitch": 0
+      },
+      {
+        "pitch": 0,
+        "yaw": 125,
+        "type": "scene",
+        "text": "chambre2",
+        "sceneId": "CH2",
+        "targetYaw": 180,
+        "targetPitch": 0
+      },
+      {
+        "pitch": 20,
+        "yaw": 50,
+        "type": "scene",
+        "text": "Accès 1er étage",
+        "sceneId": "PALIER",
+        "targetYaw": 160,
+        "targetPitch": 0
+      }
+    ]
+  },
+    "CH1": {
+      "title": "Chambre1",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "CH1.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 40,
+          "type": "scene",
+          "text": "Vers pièce de vie",
+          "sceneId": "PIECE DE VIE",
+          "targetYaw": 0
+        }
+      ]
+    },
+    "SALLE EAU": {
+      "title": "Salle d'eau'",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "SALLE EAU.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw":  10, 
+          "type": "scene",
+          "text": "Vers palier",
+          "sceneId": "PALIER",
+          "targetYaw": 0,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "CH2": {
+      "title": "Chambre2",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "CH2.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 300,
+          "type": "scene",
+          "text": "Pièce de vie",
+          "sceneId": "PIECE DE VIE",
+          "targetYaw": 180,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "CH3": {
+      "title": "Chambre3",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "CH3.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 70,
+          "type": "scene",
+          "text": "Palier",
+          "sceneId": "PALIER",
+          "targetYaw": 180,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 20,
+          "type": "info",
+          "text": "Dressing"
+        },
+        {
+          "pitch": 0,
+          "yaw": 160,
+          "type": "info",
+          "text": "Dressing"
+        }
+      ]
+    },
+    "CH4": {
+      "title": "Chambre4",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "CH4.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 80,
+          "type": "scene",
+          "text": "Palier",
+          "sceneId": "PALIER",
+          "targetYaw": 0,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 340,
+          "type": "info",
+          "text": "Dressing"
+        }
+      ]
+    },
+    "PALIER": {
+      "title": "PALIER",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 90,
+      "type": "equirectangular",
+      "panorama": "PALIER.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 170,
+          "type": "scene",
+          "text": "Chambre4",
+          "sceneId": "CH4",
+          "targetYaw": 180
+        },
+        {
+          "pitch": 0,
+          "yaw": 40,
+          "type": "scene",
+          "text": "Salle d'eau",
+          "sceneId": "SALLE EAU",
+          "targetYaw": 20
+        },
+        {
+          "pitch": 0,
+          "yaw": 260,
+          "type": "info",
+          "text": "Bureau"
+        },
+        {
+          "pitch": 0,
+          "yaw": 350,
+          "type": "scene",
+          "text": "Chambre3",
+          "sceneId": "CH3",
+          "targetYaw": 180
+        },
+        {
+          "pitch": 0,
+          "yaw": 310,
+          "type": "scene",
+          "text": "Vers Pièce de vie",
+          "sceneId": "PIECE DE VIE",
+          "targetYaw": 180
+        }
+      ]
+    }
+  }
+}
