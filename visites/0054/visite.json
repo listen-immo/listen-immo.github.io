@@ -1,0 +1,366 @@
+{
+  "default": {
+    "firstScene":"PALIER",
+    "author": "Listen Immo +",
+    "sceneFadeDuration": 1000
+  },
+  "scenes": {
+  "ENTREE": {
+    "title": "ENTREE",
+    "hfov": 500,
+    "pitch": 0,
+    "yaw": 280,
+    "type": "equirectangular",
+    "panorama": "ENTREE.jpg",
+    "hotSpots": [
+      {
+        "pitch": 0,
+        "yaw": 330,
+        "type": "info",
+        "text": "WC"
+      },
+      {
+        "pitch": 0,
+        "yaw": 60,
+        "type": "info",
+        "text": "Placards"
+      },
+      {
+        "pitch": 0,
+        "yaw": 0,
+        "type": "scene",
+        "text": "Vers 1er étage",
+        "sceneId": "PALIER",
+        "targetYaw": 180,
+        "targetPitch": 0
+      },
+      {
+        "pitch": 0,
+        "yaw": 240,
+        "type": "scene",
+        "text": "SALON",
+        "sceneId": "SALON",
+        "targetYaw": 180,
+        "targetPitch": 0
+      },
+      {
+        "pitch": 0,
+        "yaw": 110,
+        "type": "scene",
+        "text": "Vers terrasse entrée",
+        "sceneId": "JARDIN2",
+        "targetYaw": 0,
+        "targetPitch": 0
+      },
+      {
+        "pitch": 0,
+        "yaw": 310,
+        "type": "scene",
+        "text": "CUISINE",
+        "sceneId": "CUISINE",
+        "targetYaw": 0,
+        "targetPitch": 0
+      }
+    ]
+  },
+    "CH1": {
+      "title": "Chambre1",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "CH1.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 140,
+          "type": "scene",
+          "text": "Vers palier",
+          "sceneId": "PALIER",
+          "targetYaw": 180
+        },
+        {
+          "pitch": 0,
+          "yaw": 200,
+          "type": "info",
+          "text": "placard"
+        }
+      ]
+    },
+    "CUISINE": {
+      "title": "CUISINE",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "CUISINE.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 180,
+          "type": "scene",
+          "text": "Vers entrée",
+          "sceneId": "ENTREE",
+          "targetYaw": 270
+        },
+        {
+          "pitch": 0,
+          "yaw": 0,
+          "type": "scene",
+          "text": "VERANDA",
+          "sceneId": "VERANDA",
+          "targetYaw": 0
+        }
+      ]
+    },
+    "SDB": {
+      "title": "Salle de bain'",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "SDB.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw":  250, 
+          "type": "scene",
+          "text": "Vers palier",
+          "sceneId": "PALIER",
+          "targetYaw": 180,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "CH2": {
+      "title": "Chambre2",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "CH2.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 60,
+          "type": "scene",
+          "text": "Palier",
+          "sceneId": "PALIER",
+          "targetYaw": 180,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "CH3": {
+      "title": "Chambre3",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "CH3.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 210,
+          "type": "scene",
+          "text": "Palier",
+          "sceneId": "PALIER",
+          "targetYaw": 180,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "VERANDA": {
+      "title": "VERANDA",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "VERANDA.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 180,
+          "type": "scene",
+          "text": "CUISINE",
+          "sceneId": "CUISINE",
+          "targetYaw": 0,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 270,
+          "type": "scene",
+          "text": "JARDIN",
+          "sceneId": "JARDIN",
+          "targetYaw": 220,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "SALON": {
+      "title": "SALON",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "SALON.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 80,
+          "type": "scene",
+          "text": "ENTREE",
+          "sceneId": "ENTREE",
+          "targetYaw": 0,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 180,
+          "type": "scene",
+          "text": "TERRASSE ENTREE",
+          "sceneId": "JARDIN2",
+          "targetYaw": 0,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 10,
+          "type": "scene",
+          "text": "JARDIN",
+          "sceneId": "JARDIN",
+          "targetYaw": 220,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "JARDIN": {
+      "title": "JARDIN",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "JARDIN.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 230,
+          "type": "scene",
+          "text": "SALON",
+          "sceneId": "SALON",
+          "targetYaw": 0,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 280,
+          "type": "scene",
+          "text": "TERRASSE ENTREE",
+          "sceneId": "JARDIN2",
+          "targetYaw": 0,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 200,
+          "type": "scene",
+          "text": "VERANDA",
+          "sceneId": "VERANDA",
+          "targetYaw": 0,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "JARDIN2": {
+      "title": "TERRASSE ENTREE",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "JARDIN2.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 330,
+          "type": "scene",
+          "text": "JARDIN",
+          "sceneId": "JARDIN",
+          "targetYaw": 180,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 160,
+          "type": "info",
+          "text": "Portail"
+        },
+        {
+          "pitch": 0,
+          "yaw": 50,
+          "type": "scene",
+          "text": "ENTREE",
+          "sceneId": "ENTREE",
+          "targetYaw": 270,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "PALIER": {
+      "title": "PALIER",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 90,
+      "type": "equirectangular",
+      "panorama": "PALIER.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 170,
+          "type": "scene",
+          "text": "Chambre1",
+          "sceneId": "CH1",
+          "targetYaw": 0
+        },
+        {
+          "pitch": -10,
+          "yaw": 0,
+          "type": "scene",
+          "text": "Vers RDC",
+          "sceneId": "ENTREE",
+          "targetYaw": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 80,
+          "type": "scene",
+          "text": "Salle de bain",
+          "sceneId": "SDB",
+          "targetYaw": 20
+        },
+        {
+          "pitch": 0,
+          "yaw": 300,
+          "type": "info",
+          "text": "WC"
+        },
+        {
+          "pitch": 0,
+          "yaw": 260,
+          "type": "scene",
+          "text": "Chambre3",
+          "sceneId": "CH3",
+          "targetYaw": 180
+        },
+        {
+          "pitch": 0,
+          "yaw": 220,
+          "type": "scene",
+          "text": "Chambre 2",
+          "sceneId": "CH2",
+          "targetYaw": 180
+        }
+      ]
+    }
+  }
+}
