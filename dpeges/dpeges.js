@@ -14,13 +14,13 @@ var DpeGes = function () {
         header: '',
         footer: '',
         valuesRange: [
-          { min: null, max: 50, color: '#319834', textColor: '#000000', label: 'A' },
-          { min: 51, max: 90, color: '#33cc31', textColor: '#000000', label: 'B' },
-          { min: 91, max: 150, color: '#cbfc34', textColor: '#000000', label: 'C' },
-          { min: 151, max: 230, color: '#fbfe06', textColor: '#000000', label: 'D' },
-          { min: 231, max: 330, color: '#fbcc05', textColor: '#000000', label: 'E' },
-          { min: 331, max: 450, color: '#fc9935', textColor: '#000000', label: 'F' },
-          { min: 451, max: null, color: '#fc0205', textColor: '#ffffff', label: 'G' }
+          { min: null, max: 70, color: '#319834', textColor: '#000000', label: 'A' },
+          { min: 71, max: 110, color: '#33cc31', textColor: '#000000', label: 'B' },
+          { min: 111, max: 180, color: '#cbfc34', textColor: '#000000', label: 'C' },
+          { min: 181, max: 250, color: '#fbfe06', textColor: '#000000', label: 'D' },
+          { min: 251, max: 330, color: '#fbcc05', textColor: '#000000', label: 'E' },
+          { min: 331, max: 420, color: '#fc9935', textColor: '#000000', label: 'F' },
+          { min: 421, max: null, color: '#fc0205', textColor: '#ffffff', label: 'G' }
         ],
         shadow: false,
         lang: 'fr',
@@ -323,13 +323,13 @@ var DpeGes = function () {
     function DPE(options) {
 
       options.valuesRange = [
-        { min: null, max: 50, color: '#319834', textColor: '#000000', label: 'A' },
-        { min: 51, max: 90, color: '#33cc31', textColor: '#000000', label: 'B' },
-        { min: 91, max: 150, color: '#cbfc34', textColor: '#000000', label: 'C' },
-        { min: 151, max: 230, color: '#fbfe06', textColor: '#000000', label: 'D' },
-        { min: 231, max: 330, color: '#fbcc05', textColor: '#000000', label: 'E' },
-        { min: 331, max: 450, color: '#fc9935', textColor: '#000000', label: 'F' },
-        { min: 451, max: null, color: '#fc0205', textColor: '#ffffff', label: 'G' }
+        { min: null, max: 70, color: '#319834', textColor: '#000000', label: 'A' },
+        { min: 71, max: 110, color: '#33cc31', textColor: '#000000', label: 'B' },
+        { min: 111, max: 180, color: '#cbfc34', textColor: '#000000', label: 'C' },
+        { min: 181, max: 250, color: '#fbfe06', textColor: '#000000', label: 'D' },
+        { min: 251, max: 330, color: '#fbcc05', textColor: '#000000', label: 'E' },
+        { min: 331, max: 420, color: '#fc9935', textColor: '#000000', label: 'F' },
+        { min: 421, max: null, color: '#fc0205', textColor: '#ffffff', label: 'G' }
       ];
 
       options.shape = "sharp";
@@ -340,13 +340,13 @@ var DpeGes = function () {
     function GES(options) {
 
       options.valuesRange = [
-        { min: null, max: 5, color: '#f2eff4', textColor: '#000000', label: 'A' },
-        { min: 6, max: 10, color: '#dfc1f7', textColor: '#000000', label: 'B' },
-        { min: 11, max: 20, color: '#d6aaf4', textColor: '#000000', label: 'C' },
-        { min: 21, max: 35, color: '#cc93f4', textColor: '#000000', label: 'D' },
-        { min: 36, max: 55, color: '#bb72f3', textColor: '#ffffff', label: 'E' },
-        { min: 56, max: 80, color: '#a94cee', textColor: '#ffffff', label: 'F' },
-        { min: 81, max: null, color: '#8b1ae1', textColor: '#ffffff', label: 'G' }
+        { min: null, max: 6, color: '#f2eff4', textColor: '#000000', label: 'A' },
+        { min: 7, max: 11, color: '#dfc1f7', textColor: '#000000', label: 'B' },
+        { min: 12, max: 30, color: '#d6aaf4', textColor: '#000000', label: 'C' },
+        { min: 31, max: 50, color: '#cc93f4', textColor: '#000000', label: 'D' },
+        { min: 51, max: 70, color: '#bb72f3', textColor: '#ffffff', label: 'E' },
+        { min: 71, max: 100, color: '#a94cee', textColor: '#ffffff', label: 'F' },
+        { min: 101, max: null, color: '#8b1ae1', textColor: '#ffffff', label: 'G' }
       ];
 
       options.shape = "flat";
