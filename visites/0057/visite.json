@@ -1,0 +1,739 @@
+{
+  "default": {
+    "firstScene":"ENTREE",
+    "author": "Listen Immo +",
+    "sceneFadeDuration": 1000
+  },
+
+  "scenes": {
+    "ENTREE": {
+      "title": "ENTREE",
+      "hfov": 1000,
+      "pitch": 0,
+      "yaw": 330,
+      "type": "equirectangular",
+      "panorama": "EXT_ENTREE.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 0,
+          "type": "scene",
+          "text": "PORCHE",
+          "sceneId": "PORCHE",
+          "targetYaw": 350
+        },
+        {
+          "pitch": 0,
+          "yaw": 230,
+          "type": "scene",
+          "text": "VUE JARDIN COTE EN",
+          "sceneId": "EXT_NE",
+          "targetYaw": 160,
+          "targetPitch": 0
+        },
+        {
+          "pitch": -5,
+          "yaw": 315,
+          "type": "scene",
+          "text": "VUE PORCHE",
+          "sceneId": "EXT_PORCHE",
+          "targetYaw": 20,
+          "targetPitch":0
+        },
+        {
+          "pitch": 0,
+          "yaw": 290,
+          "type": "scene",
+          "text": "VUE JARDIN COTE ES",
+          "sceneId": "EXT_SE",
+          "targetYaw": 180,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "EXT_SUD": {
+      "title": "JARDIN COTE SUD",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "EXT_SUD.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 20,
+          "type": "scene",
+          "text": "JARDIN COTE OCEAN",
+          "sceneId": "EXT_OCEAN",
+          "targetYaw": 250
+        },
+        {
+          "pitch": 0,
+          "yaw": 190,
+          "type": "scene",
+          "text": "VUE JARDIN COTE ES",
+          "sceneId": "EXT_SE",
+          "targetYaw": 160
+        }
+      ]
+    },
+    "PORCHE": {
+      "title": "PORCHE",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "PORCHE.jpg",
+      "hotSpots": [
+        {
+          "pitch": -10,
+          "yaw": 350,
+          "type": "scene",
+          "text": "JARDIN VUE PORCHE",
+          "sceneId": "EXT_PORCHE",
+          "targetYaw": 20
+        },
+        {
+          "pitch": 0,
+          "yaw": 320,
+          "type": "scene",
+          "text": "VUE JARDIN COTE EN",
+          "sceneId": "EXT_NE",
+          "targetYaw": 160
+        },
+        {
+          "pitch": 0,
+          "yaw": 20,
+          "type": "scene",
+          "text": "VUE JARDIN COTE ES",
+          "sceneId": "EXT_SE",
+          "targetYaw": 180,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 170,
+          "type": "scene",
+          "text": "SALON",
+          "sceneId": "SALON",
+          "targetYaw": 180,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 300,
+          "type": "scene",
+          "text": "ENTREE",
+          "sceneId": "ENTREE",
+          "targetYaw": 330,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "EXT_SE": {
+      "title": "JARDIN COTE EST SUD",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "EXT_SE.jpg",
+      "hotSpots": [
+        {
+          "pitch": -5,
+          "yaw": 190,
+          "type": "scene",
+          "text": "JARDIN VUE PORCHE",
+          "sceneId": "EXT_PORCHE",
+          "targetYaw": 20
+        },
+        {
+          "pitch": 0,
+          "yaw": 220,
+          "type": "scene",
+          "text": "VUE JARDIN COTE EN",
+          "sceneId": "EXT_NE",
+          "targetYaw": 160
+        },
+        {
+          "pitch": 0,
+          "yaw": 200,
+          "type": "scene",
+          "text": "ENTREE",
+          "sceneId": "ENTREE",
+          "targetYaw": 330,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 125,
+          "type": "scene",
+          "text": "JARDIN COTE SUD",
+          "sceneId": "EXT_SUD",
+          "targetYaw": 0,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "EXT_NE": {
+      "title": "JARDIN COTE EST NORD",
+      "pitch": 0,
+      "hfov": 1000,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "EXT_NE.jpg",
+      "hotSpots": [
+        {
+          "pitch": -10,
+          "yaw": 160,
+          "type": "scene",
+          "text": "JARDIN VUE PORCHE",
+          "sceneId": "EXT_PORCHE",
+          "targetYaw": 14
+        },
+        {
+          "pitch": 0,
+          "yaw": 100,
+          "type": "scene",
+          "text": "VUE JARDIN COTE ES",
+          "sceneId": "EXT_SE",
+          "targetYaw": 180
+        },
+        {
+          "pitch": 0,
+          "yaw": 215,
+          "type": "scene",
+          "text": "ENTREE",
+          "sceneId": "ENTREE",
+          "targetYaw": 330,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 165,
+          "type": "scene",
+          "text": "PORCHE",
+          "sceneId": "PORCHE",
+          "targetYaw": 355,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "EXT_PORCHE": {
+      "title": "JARDIN VUE PORCHE",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "EXT_PORCHE.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 220,
+          "type": "scene",
+          "text": "VUE JARDIN COTE ES",
+          "sceneId": "EXT_SE",
+          "targetYaw": 180
+        },
+        {
+          "pitch": 0,
+          "yaw": 140,
+          "type": "scene",
+          "text": "VUE JARDIN COTE EN",
+          "sceneId": "EXT_NE",
+          "targetYaw": 160
+        },
+        {
+          "pitch": 0,
+          "yaw": 110,
+          "type": "scene",
+          "text": "ENTREE",
+          "sceneId": "ENTREE",
+          "targetYaw": 330,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 10,
+          "type": "scene",
+          "text": "PORCHE",
+          "sceneId": "PORCHE",
+          "targetYaw": 0,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "EXT_OCEAN": {
+      "title": "JARDIN COTE OCEAN",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "EXT_OCEAN.jpg",
+      "hotSpots": [
+        { 
+          "pitch": 0,
+          "yaw": 350,
+          "type": "scene",
+          "text": "JARDIN COTE SUD",
+          "sceneId": "EXT_SUD",
+          "targetYaw": 0,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 265,
+          "type": "scene",
+          "text": "VERANDA",
+          "sceneId": "VERANDA",
+          "targetYaw": 0,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "SALON":{
+      "title": "Salon",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "SALON.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 100,
+          "type": "scene",
+          "text": "AILE GAUCHE",
+          "sceneId": "COULOIRG",
+          "targetYaw": 270,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 280,
+          "type": "scene",
+          "text": "AILE DROITE",
+          "sceneId": "COULOIRD",
+          "targetYaw": 180,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 350,
+          "type": "scene",
+          "text": "PORCHE",
+          "sceneId": "PORCHE",
+          "targetYaw": 0,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "COULOIRG":{
+      "title": "COULOIR GAUCHE",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "COULOIRG.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 195,
+          "type": "scene",
+          "text": "Chambre1",
+          "sceneId": "Chambre1",
+          "targetYaw": 90,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 290,
+          "type": "scene",
+          "text": "Chambre2",
+          "sceneId": "Chambre2",
+          "targetYaw": 90,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 350,
+          "type": "scene",
+          "text": "Chambre3",
+          "sceneId": "Chambre3",
+          "targetYaw": 90,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 100,
+          "type": "scene",
+          "text": "SALON",
+          "sceneId": "SALON",
+          "targetYaw": 180,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 0,
+          "type": "scene",
+          "text": "CUISINE",
+          "sceneId": "CUISINE",
+          "targetYaw": 0,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 180,
+          "type": "scene",
+          "text": "WC1",
+          "sceneId": "WC1",
+          "targetYaw": 0,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "COULOIRD":{
+      "title": "COULOIR DROIT",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "COULOIRD.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 315,
+          "type": "scene",
+          "text": "Chambre4",
+          "sceneId": "Chambre4",
+          "targetYaw": 180,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 195,
+          "type": "scene",
+          "text": "Chambre5",
+          "sceneId": "Chambre5",
+          "targetYaw": 180,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 180,
+          "type": "scene",
+          "text": "Chambre6",
+          "sceneId": "Chambre6",
+          "targetYaw": 0,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 170,
+          "type": "scene",
+          "text": "ATELIER",
+          "sceneId": "ATELIER",
+          "targetYaw": 0,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 90,
+          "type": "scene",
+          "text": "SALON",
+          "sceneId": "SALON",
+          "targetYaw": 180,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 350,
+          "type": "scene",
+          "text": "WC2",
+          "sceneId": "WC2",
+          "targetYaw": 0,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "Chambre1": {
+      "title": "Chambre1",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "CH1G.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 60,
+          "type": "scene",
+          "text": "COULOIR",
+          "sceneId": "COULOIRG",
+          "targetYaw": 270
+        }
+      ]
+    },
+    "Chambre2": {
+      "title": "Chambre2",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "CH2G.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 80,
+          "type": "scene",
+          "text": "COULOIR",
+          "sceneId": "COULOIRG",
+          "targetYaw": 270
+        }
+      ]
+    },
+    "Chambre3": {
+      "title": "Chambre3",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 290,
+      "type": "equirectangular",
+      "panorama": "CH3G.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 110,
+          "type": "scene",
+          "text": "COULOIR",
+          "sceneId": "COULOIRG",
+          "targetYaw": 270
+          }
+        ]
+     },
+    "WC1":{
+      "title": "WC1",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "WC1G.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 0,
+          "type": "scene",
+          "text": "COULOIR",
+          "sceneId": "COULOIRG",
+          "targetYaw": 270
+        }
+        ]
+     },  
+    "Chambre4": {
+      "title": "Chambre4",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 290,
+      "type": "equirectangular",
+      "panorama": "CH1D.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 110,
+          "type": "scene",
+          "text": "COULOIR",
+          "sceneId": "COULOIRD",
+          "targetYaw": 180
+        }
+      ]
+    },
+    "Chambre5": {
+      "title": "Chambre5",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 290,
+      "type": "equirectangular",
+      "panorama": "CH2D.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 100,
+          "type": "scene",
+          "text": "COULOIR",
+          "sceneId": "COULOIRD",
+          "targetYaw": 180
+        }
+      ]
+    },
+    "Chambre6": {
+      "title": "Chambre6",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 290,
+      "type": "equirectangular",
+      "panorama": "CH3D.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 210,
+          "type": "scene",
+          "text": "COULOIR",
+          "sceneId": "COULOIRD",
+          "targetYaw": 180
+        }
+      ]
+    },
+    "CH_VERANDA": {
+      "title": "Chambre7",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 290,
+      "type": "equirectangular",
+      "panorama": "CH_VERANDA.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 80,
+          "type": "scene",
+          "text": "VERANDA",
+          "sceneId": "VERANDA",
+          "targetYaw": 270
+        }
+      ]
+    },
+    "WC2":{
+      "title": "WC2",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "WCD.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 0,
+          "type": "scene",
+          "text": "COULOIR",
+          "sceneId": "COULOIRD",
+          "targetYaw": 180
+        }
+        ]
+     },  
+    "ATELIER": {
+      "title": "ATELIER",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "ATELIER.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw":330,
+          "type": "scene",
+          "text": "COULOIR",
+          "sceneId": "COULOIRD",
+          "targetYaw": 180
+        }
+      ]
+    },
+    "CUISINE": {
+      "title": "Cuisine",
+      "pitch": 0,
+      "yaw": 180,
+      "hfov": 500,
+      "type": "equirectangular",
+      "panorama": "CUISINE.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 290,
+          "type": "scene",
+          "text": "VERANDA",
+          "sceneId": "VERANDA",
+          "targetYaw": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 140,
+          "type": "scene",
+          "text": "COULOIR",
+          "sceneId": "COULOIRG",
+          "targetYaw": 270
+        }
+      ]
+    },
+    "VERANDA": {
+      "title":"VERANDA",
+      "pitch": 0,
+      "yaw": 180,
+      "hfov": 500,
+      "type": "equirectangular",
+      "panorama": "VERANDA.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 105,
+          "type": "scene",
+          "text": "CUISINE",
+          "sceneId": "CUISINE",
+          "targetYaw": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 165,
+          "type": "scene",
+          "text": "BUANDERIE",
+          "sceneId": "BUANDERIE",
+          "targetYaw": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 280,
+          "type": "scene",
+          "text": "JARDIN COTE OCEAN",
+          "sceneId": "EXT_OCEAN",
+          "targetYaw": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 370,
+          "type": "scene",
+          "text": "CHAMBRE 7",
+          "sceneId": "CH_VERANDA",
+          "targetYaw": 0
+        }
+      ]
+    },
+    "BUANDERIE": {
+      "title": "BUANDERIE ET SALLE D'EAU",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "BUANDERIE.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 0,
+          "type": "scene",
+          "text": "VERANDA",
+          "sceneId": "VERANDA",
+          "targetYaw": 20
+        },
+        {
+          "pitch": 0,
+          "yaw": 290,
+          "type": "info",
+          "text": "WC3",
+          "targetYaw": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 20,
+          "type": "INFO",
+          "text": "WC3",
+          "targetYaw": 0
+        }
+      ]
+    }
+  }
+}
