@@ -20,8 +20,6 @@
   </url><url>
     <loc>./archives/0037/</loc>
   </url><url>
-    <loc>./biens/0056/</loc>
-  </url><url>
     <loc>./ventes/0056/</loc>
   </url><url>
     <loc>./biens/0054/</loc>
@@ -125,6 +123,8 @@
     <loc>./tags/</loc>
   </url><url>
     <loc>./categories/vente/</loc>
+  </url><url>
+    <loc>./categories/ventes/</loc>
   </url><url>
     <loc>./ventes/</loc>
   </url><url>
