@@ -1,0 +1,408 @@
+{
+  "default": {
+    "firstScene":"ENTREE",
+    "author": "Listen Immo +",
+    "sceneFadeDuration": 1000
+  },
+
+  "scenes": {
+    "JARDIN": {
+      "title": "JARDIN",
+      "hfov": 1000,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "JARDIN.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 140,
+          "type": "scene",
+          "text": "BUANDERIE",
+          "sceneId": "BUANDERIE",
+          "targetYaw": 90
+        }
+      ]
+        },
+    "SALON": {
+      "title": "SALON",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "SALON.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 110,
+          "type": "scene",
+          "text": "ENTREE",
+          "sceneId": "ENTREE",
+          "targetYaw": 180
+        }
+      ]
+    },
+    "ENTREE":{
+      "title": "ENTREE",
+      "hfov": 1000,
+      "pitch": 0,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "ENTREE.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 180,
+          "type": "scene",
+          "text": "SALON",
+          "sceneId": "SALON",
+          "targetYaw": 270,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 155,
+          "type": "scene",
+          "text": "COULOIR",
+          "sceneId": "COULOIR2",
+          "targetYaw": 180,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 50,
+          "type": "scene",
+          "text": "SALLE D EAU",
+          "sceneId": "SDE",
+          "targetYaw": 90
+        },
+        {
+          "pitch": 0,
+          "yaw": 195,
+          "type": "scene",
+          "text": "GARAGE",
+          "sceneId": "GARAGE",
+          "targetYaw": 270,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 100,
+          "type": "scene",
+          "text": "WC",
+          "sceneId": "WC",
+          "targetYaw": 0,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 0,
+          "type": "info",
+          "text": "RUE"
+        }
+      ]
+    },
+    "COULOIR2":{
+      "title": "COULOIR",
+      "hfov": 1000,
+      "pitch": 0,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "COULOIR2.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 340,
+          "type": "scene",
+          "text": "SALON",
+          "sceneId": "SALON",
+          "targetYaw": -90,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 20,
+          "type": "scene",
+          "text": "ENTREE",
+          "sceneId": "ENTREE",
+          "targetYaw": 180,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 0,
+          "type": "scene",
+          "text": "GARAGE",
+          "sceneId": "GARAGE",
+          "targetYaw": 270
+        },
+        {
+          "pitch": 0,
+          "yaw": 147,
+          "type": "scene",
+          "text": "CUISINE",
+          "sceneId": "CUISINE",
+          "targetYaw": 0,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 210,
+          "type": "scene",
+          "text": "CH1",
+          "sceneId": "CH1",
+          "targetYaw": 90,
+          "targetPitch": 0
+        },
+        {
+          "pitch": -20,
+          "yaw": 160,
+          "type": "scene",
+          "text": "Vers Sous Sol",
+          "sceneId": "COULOIR3",
+          "targetYaw": 180,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 50,
+          "type": "info",
+          "text": "PLACARD"
+        }
+      ]
+    },
+    "COULOIR3":{
+      "title": "Sous Sol",
+      "hfov": 1000,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "COULOIR3.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 180,
+          "type": "scene",
+          "text": "CAVE",
+          "sceneId": "CAVE",
+          "targetYaw": 0,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 185,
+          "type": "scene",
+          "text": "Vers RDC",
+          "sceneId": "COULOIR2",
+          "targetYaw": 180,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 193,
+          "type": "scene",
+          "text": "CH2",
+          "sceneId": "CH2",
+          "targetYaw": 90
+        },
+        {
+          "pitch": 0,
+          "yaw": 195,
+          "type": "scene",
+          "text": "CH3",
+          "sceneId": "CH3",
+          "targetYaw": 0,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 280,
+          "type": "scene",
+          "text": "BUANDERIE",
+          "sceneId": "BUANDERIE",
+          "targetYaw": 90,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 0,
+          "type": "info",
+          "text": "PLACARD"
+        }
+      ]
+    },
+    "CH2": {
+      "title": "CHAMBRE 2",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "CH2.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 250,
+          "type": "scene",
+          "text": "COULOIR",
+          "sceneId": "COULOIR3",
+          "targetYaw": 180
+        }
+      ]
+    },
+    "CAVE": {
+      "title": "CAVE",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "CAVE.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 220,
+          "type": "scene",
+          "text": "COULOIR",
+          "sceneId": "COULOIR3",
+          "targetYaw": 180
+        }
+      ]
+    },
+    "GARAGE": {
+      "title": "GARAGE",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "GARAGE.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 0,
+          "type": "info",
+          "text": "VERS LA RUE"
+        },
+        {
+          "pitch": 0,
+          "yaw": 130,
+          "type": "scene",
+          "text": "ENTREE",
+          "sceneId": "ENTREE",
+          "targetYaw": 180
+        }
+      ]
+    },
+    "CH1": {
+      "title": "CHAMBRE 1",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "CH1.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 240,
+          "type": "scene",
+          "text": "COULOIR",
+          "sceneId": "COULOIR2",
+          "targetYaw": 180
+        }
+      ]
+    },
+    "WC":{
+      "title": "WC",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "WC.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 180,
+          "type": "scene",
+          "text": "ENTREE",
+          "sceneId": "ENTREE",
+          "targetYaw": 180
+        }
+        ]
+     },  
+     "CUISINE":{
+      "title": "WC",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "CUISINE.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 195,
+          "type": "scene",
+          "text": "COULOIR",
+          "sceneId": "COULOIR2",
+          "targetYaw": 180
+        }
+        ]
+     },  
+    "SDE": {
+      "title": "SALLE D'EAU",
+      "yaw": 180,
+      "hfov": 1000,
+      "type": "equirectangular",
+      "panorama": "SDE.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": -100,
+          "type": "scene",
+          "text": "ENTREE",
+          "sceneId": "ENTREE",
+          "targetYaw": 180
+        }
+      ]
+    },  
+    "BUANDERIE": {
+      "title": "SALLE D'EAU",
+      "yaw": 180,
+      "hfov": 1000,
+      "type": "equirectangular",
+      "panorama": "BUANDERIE.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": -90,
+          "type": "scene",
+          "text": "COULOIR",
+          "sceneId": "COULOIR3",
+          "targetYaw": 180
+        },
+        {
+          "pitch": 0,
+          "yaw": 90,
+          "type": "scene",
+          "text": "JARDIN",
+          "sceneId": "JARDIN",
+          "targetYaw": 45
+        }
+      ]
+    },
+    "CH3": {
+      "title": "CH3",
+      "yaw": 180,
+      "hfov": 1000,
+      "type": "equirectangular",
+      "panorama": "CH3.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 210,
+          "type": "scene",
+          "text": "COULOIR",
+          "sceneId": "COULOIR3",
+          "targetYaw": 180
+        }
+      ]
+    }
+  }
+}
