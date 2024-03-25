@@ -2,11 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>./biens/0062/</loc>
+  </url><url>
     <loc>./biens/0057/</loc>
   </url><url>
-    <loc>./biens/0058/</loc>
-  </url><url>
     <loc>./ventes/0058/</loc>
+  </url><url>
+    <loc>./biens/0060/</loc>
+  </url><url>
+    <loc>./biens/0061/</loc>
   </url><url>
     <loc>./archives/0032/</loc>
   </url><url>
@@ -30,7 +34,7 @@
   </url><url>
     <loc>./archives/0053/</loc>
   </url><url>
-    <loc>./biens/0051/</loc>
+    <loc>./ventes/0051/</loc>
   </url><url>
     <loc>./ventes/0049/</loc>
   </url><url>
