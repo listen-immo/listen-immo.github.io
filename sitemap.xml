@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>./biens/0054/</loc>
+  </url><url>
     <loc>./biens/0062/</loc>
   </url><url>
     <loc>./biens/0057/</loc>
@@ -29,8 +31,6 @@
     <loc>./archives/0037/</loc>
   </url><url>
     <loc>./ventes/0056/</loc>
-  </url><url>
-    <loc>./biens/0054/</loc>
   </url><url>
     <loc>./archives/0053/</loc>
   </url><url>
