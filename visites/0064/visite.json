@@ -175,34 +175,6 @@
         }
       ]
     },
-    "EXTGAUCHE": {
-      "title": "COTE GAUCHE",
-      "hfov": 500,
-      "pitch": 0,
-      "yaw": 0,
-      "type": "equirectangular",
-      "panorama": "EXTGAUCHE.jpg",
-      "hotSpots": [
-        {
-          "pitch": 0,
-          "yaw": 10,
-          "type": "scene",
-          "text": "JARDIN",
-          "sceneId": "JARDIN",
-          "targetYaw": 0,
-          "targetPitch": 0
-        },
-        {
-          "pitch": 0,
-          "yaw": 180,
-          "type": "scene",
-          "text": "PORTAIL",
-          "sceneId": "PORTAIL",
-          "targetYaw": 180,
-          "targetPitch": 0
-        }
-      ]
-    },
     "JARDIN": {
       "title": "JARDIN",
       "hfov": 500,
@@ -227,15 +199,6 @@
           "text": "COTE DROIT",
           "sceneId": "EXTDROIT",
           "targetYaw": 40,
-          "targetPitch": 0
-        },
-        {
-          "pitch": 0,
-          "yaw": 40,
-          "type": "scene",
-          "text": "COTE GAUCHE",
-          "sceneId": "EXTGAUCHE",
-          "targetYaw": 220,
           "targetPitch": 0
         }
       ]
@@ -398,8 +361,8 @@
           "type": "scene",
           "text": "MEZZANINE",
           "sceneId": "MEZZANINE",
-          "targetYaw": 330,
-          "targetPitch": 0
+          "targetYaw": 180,
+          "targetPitch": -10
         },
         {
           "pitch": 0,
@@ -492,15 +455,6 @@
           "sceneId": "EXTDROIT",
           "targetYaw": 0,
           "targetPitch": 0
-        },
-        {
-          "pitch": 0,
-          "yaw": 60,
-          "type": "scene",
-          "text": "COTE GAUCHE",
-          "sceneId": "EXTGAUCHE",
-          "targetYaw": 0,
-          "targetPitch": 0
         }
       ]
     },
@@ -524,11 +478,8 @@
         {
           "pitch": 0,
           "yaw": 130,
-          "type": "scene",
-          "text": "GARAGE",
-          "sceneId": "GARAGE",
-          "targetYaw": 180,
-          "targetPitch": 0
+          "type": "INFO",
+          "text": "GARAGE"
         },
         {
           "pitch": 0,
@@ -550,32 +501,6 @@
         }
       ]
     },
-    "GARAGE": {
-      "title": "GARAGE",
-      "pitch": 0,
-      "hfov": 500,
-      "yaw": 90,
-      "type": "equirectangular",
-      "panorama": "GARAGE.jpg",
-      "hotSpots": [
-        {
-          "pitch": 0,
-          "yaw": 130,
-          "type": "scene",
-          "text": "VERS ENTREE PRINCIPALE",
-          "sceneId": "PORTILLON",
-          "targetYaw": 180
-        },
-        {
-          "pitch": 0,
-          "yaw": 180,
-          "type": "scene",
-          "text": "VERS PORTAIL",
-          "sceneId": "PORTAIL",
-          "targetYaw": 180
-        }
-      ]
-    },
     "PORTAIL": {
       "title": "GARAGE",
       "pitch": 0,
@@ -586,19 +511,9 @@
       "hotSpots": [
         {
           "pitch": 0,
-          "yaw": 140,
-          "type": "scene",
-          "text": "VERS COTE GAUCHE",
-          "sceneId": "EXTGAUCHE",
-          "targetYaw": 0
-        },
-        {
-          "pitch": 0,
           "yaw": 180,
-          "type": "scene",
-          "text": "GARAGE",
-          "sceneId": "GARAGE",
-          "targetYaw": 180
+          "type": "INFO",
+          "text": "GARAGE"
         },
         {
           "pitch": 0,
