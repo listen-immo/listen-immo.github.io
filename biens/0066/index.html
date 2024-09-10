@@ -98,16 +98,24 @@
                 
                 
                 <div class="carousel-item active">
-                    <img src="1.jpg" alt="Parking- Stationnement">
+                    <img src="1.jpg" alt="Vue Salon - Appartement de 178m² - Bordeaux">
                 </div>
                 
                 
                 <div class="carousel-item">
-                    <img src="2.jpg" alt="Parking- Stationnement">
+                    <img src="2.jpg" alt="Cuisine - Appartement de 178m² - Bordeaux">
                 </div>
                 
                 <div class="carousel-item">
-                    <img src="3.jpg" alt="">
+                    <img src="3.jpg" alt="Chambre 1 - Appartement de 178m² - Bordeaux">
+                </div>
+                
+                <div class="carousel-item">
+                    <img src="4.jpg" alt="Salle de bain - Maison 6 pièces Camblanes">
+                </div>
+                
+                <div class="carousel-item">
+                    <img src="5.jpg" alt="Extérieur - Appartement de 178m² - Bordeaux">
                 </div>
                 
             </div>
@@ -122,10 +130,10 @@
         </div>
         <div class="listen-bien-header row">
             <div class="col-md-9">
-                <h2>Parking</h2>
+                <h2>Appartement de 178m² - Bordeaux</h2>
             </div>
             <div class="col-md-3 text-right">
-                <h2><b>20 000 €</b></h2>
+                <h2><b>248 400€</b></h2>
             </div>
         </div>
     </div>
@@ -135,15 +143,21 @@
         <div class="row">
             <div class="col-md-1 "></div>
             <div class="col-md-11 text-justify">
-                <p>BORDEAUX PROCHE VICTOIRE ET MUSEE D&rsquo;AQUITAINE
-A proximité de la Place de la Victoire et du musée d&rsquo;Aquitaine, place de parking sécurisée, semi couverte pour une citadine ou 2 roues.</p>
-<p>Faibles charges de copropriété (110EUR/an).</p>
-<p>Surface : 12 m²
-Non soumis au DPE
-Prix du bien : 20000 €
-Prix du bien hors honoraires : 19 400 €
-Honoraires TTC : 3,5 % soit 600 €
-Honoraires à la charge de l&rsquo;acquéreur</p>
+                <p>Listen Immo+ vous propose cette magnifique réalisation architecturale de 1976 du célèbre architecte Bordelais Jacques HONDELATTE, et revisitée en 2018 par son disciple Seck BOUBACAR qui a su conserver tout l’esprit du projet initial et ces matériaux d’origine.</p>
+<p>Ce bâtiment est organisé autour de son escalier qui dessert différents niveaux d’espace de vie.</p>
+<p>Vous trouverez dans un premier niveau la pièce à vivre avec sa cuisine ouverte et sa buanderie.</p>
+<p>Vous accèderez également dans une première chambre et sa salle d’eau attenante.</p>
+<p>Prolongez l’escalier, il vous amènera à un palier détente ouvrant sur une terrasse coin café.</p>
+<p>Une deuxième chambre (ou bureau) longe l’escalier jusqu’à deux autres chambres avec sanitaire.</p>
+<p>C’est en haut que se trouve une bibliothèque ainsi qu’une suite parentale.</p>
+<p>Situé dans un quartier calme à proximité de toutes commodités, écoles et transports en commun.</p>
+<p>Ce bien est comme une maison et ne relève pas de la copropriété.</p>
+<p>N’hésitez pas à me contacter pour venir découvrir ces espaces singuliers baignés de lumière.</p>
+<p>Prix HAI : 720 000€</p>
+<p>Honoraires TTC inclus à la charge de l’acquéreur de 20 000€.</p>
+<p>Prix du bien hors honoraires : 700 000€</p>
+<p>Information d&rsquo;affichage énergétique sur ce bien : classe ENERGIE C indice 122 et classe CLIMAT A indice 4.</p>
+<p>Les informations sur les risques auxquels ce bien est exposé sont disponibles sur le site Géorisques : georisques. gouv. fr.</p>
 
             </div>
         </div>
@@ -153,9 +167,9 @@ Honoraires à la charge de l&rsquo;acquéreur</p>
             <div class="col-md-1 "></div>
             <div class="col-md-11 text-justify">
                 <ul>
-                    <li>Type de bien : <b>Parking</b></li>
-                    <li>Nombre de pièces : <b>1</b></li>
-                    <li>Surface : <b>12 m²</b></li>
+                    <li>Type de bien : <b>Maison</b></li>
+                    <li>Nombre de pièces : <b>6</b></li>
+                    <li>Surface : <b>150 m²</b></li>
 
                 </ul>
             </div>
@@ -165,12 +179,20 @@ Honoraires à la charge de l&rsquo;acquéreur</p>
 
             <div class="col-md-1 "></div>
             
+            <div class="col-md-5">DPE (Diagnostic de performance énergétique)</div>
+            
+            
+            <div class="col-md-5" >GES (Gaz à effet de serre)</div>
             
         </div>
         <br/>
         <div class="row">
             <div class="col-md-1 "></div>
             
+            <div class="col-md-5" id="dpe"> </div>
+            
+            
+            <div class="col-md-5" id="ges"></div>
             
         </div>
 
@@ -179,12 +201,12 @@ Honoraires à la charge de l&rsquo;acquéreur</p>
 var dpe = new DpeGes();
 dpe.dpe({
 domId: 'dpe',
-        value:  null ,
+        value:  142 ,
 });
 var ges = new DpeGes();
 ges.ges({
 domId: 'ges',
-        value:  null 
+        value:  30 
 });
         </script>
     </div>
