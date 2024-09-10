@@ -1,0 +1,547 @@
+{
+  "default": {
+    "firstScene":"PORTILLON",
+    "author": "Listen Immo +",
+    "sceneFadeDuration": 1000
+  },
+  "scenes": {
+  "ENTREE": {
+    "title": "ENTREE",
+    "hfov": 500,
+    "pitch": 0,
+    "yaw": 280,
+    "type": "equirectangular",
+    "panorama": "ENTREE.jpg",
+    "hotSpots": [
+      {
+        "pitch": 0,
+        "yaw": 220,
+        "type": "info",
+        "text": "Placards"
+      },
+      {
+        "pitch": 0,
+        "yaw": 170,
+        "type": "scene",
+        "text": "Vers SALLE A MANGER",
+        "sceneId": "SAM",
+        "targetYaw": 145,
+        "targetPitch": 0
+      },
+      {
+        "pitch": 0,
+        "yaw": 350,
+        "type": "scene",
+        "text": "VERS EXTERIEUR",
+        "sceneId": "PORTILLON",
+        "targetYaw": 180,
+        "targetPitch": 0
+      },
+      {
+        "pitch": 0,
+        "yaw": 190,
+        "type": "scene",
+        "text": "Vers PARTIE NUIT",
+        "sceneId": "COULOIR",
+        "targetYaw": 180,
+        "targetPitch": 0
+      }
+    ]
+  },
+    "CH1": {
+      "title": "Chambre1",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "CH1.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 90,
+          "type": "scene",
+          "text": "COULOIR",
+          "sceneId": "COULOIR",
+          "targetYaw": 180
+        },
+        {
+          "pitch": 0,
+          "yaw": 110,
+          "type": "info",
+          "text": "placard"
+        }
+      ]
+    },
+    "CUISINE": {
+      "title": "CUISINE",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "CUISINE.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 0,
+          "type": "scene",
+          "text": "SALLE A MANGER",
+          "sceneId": "SAM",
+          "targetYaw": 0
+        }
+      ]
+    },
+    "SDB": {
+      "title": "Salle de bain'",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "SDB.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw":  0, 
+          "type": "scene",
+          "text": "COULOIR",
+          "sceneId": "COULOIR",
+          "targetYaw": 180,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "CH2": {
+      "title": "Chambre2",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "CH2.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 110,
+          "type": "scene",
+          "text": "COULOIR",
+          "sceneId": "COULOIR",
+          "targetYaw": 180,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "CH3": {
+      "title": "Chambre3",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "CH3.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 120,
+          "type": "scene",
+          "text": "COULOIR",
+          "sceneId": "COULOIR",
+          "targetYaw": 180,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "EXTDROIT": {
+      "title": "COTE DROIT",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "EXTDROIT.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 180,
+          "type": "scene",
+          "text": "JARDIN",
+          "sceneId": "JARDIN",
+          "targetYaw": 0,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 10,
+          "type": "scene",
+          "text": "ENTREE PRINCIPALE",
+          "sceneId": "PORTILLON",
+          "targetYaw": 220,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "JARDIN": {
+      "title": "JARDIN",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "JARDIN.jpg",
+      "hotSpots": [
+        {
+          "pitch": -5,
+          "yaw": 15,
+          "type": "scene",
+          "text": "TERRASSE ARRIERE",
+          "sceneId": "TERRASSE2",
+          "targetYaw": 0,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 340,
+          "type": "scene",
+          "text": "COTE DROIT",
+          "sceneId": "EXTDROIT",
+          "targetYaw": 40,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "COULOIR": {
+      "title": "COULOIR",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "COULOIR.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 120,
+          "type": "scene",
+          "text": "CH1",
+          "sceneId": "CH1",
+          "targetYaw": 180,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 150,
+          "type": "scene",
+          "text": "CH2",
+          "sceneId": "CH2",
+          "targetYaw": 0,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 180,
+          "type": "scene",
+          "text": "CH3",
+          "sceneId": "CH3",
+          "targetYaw": 0,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 220,
+          "type": "scene",
+          "text": "SALLE DE BAIN",
+          "sceneId": "SDB",
+          "targetYaw": 220,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 270,
+          "type": "scene",
+          "text": "WC",
+          "sceneId": "WC",
+          "targetYaw": 0,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 0,
+          "type": "scene",
+          "text": "SAM",
+          "sceneId": "SAM",
+          "targetYaw": 20,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "MEZZANINE": {
+      "title": "MEZZANINE",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "MEZZANINE.jpg",
+      "hotSpots": [
+        {
+          "pitch": -30,
+          "yaw": 0,
+          "type": "scene",
+          "text": "SALON",
+          "sceneId": "SALON",
+          "targetYaw": 180,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 40,
+          "type": "info",
+          "text": "Placards"
+        }
+      ]
+    },
+    "SAM": {
+      "title": "SALLE A MANGER",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "SAM.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 180,
+          "type": "scene",
+          "text": "TERRASSE",
+          "sceneId": "TERRASSE",
+          "targetYaw": 180,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 340,
+          "type": "scene",
+          "text": "ENTREE",
+          "sceneId": "ENTREE",
+          "targetYaw": 0,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 320,
+          "type": "scene",
+          "text": "VERS PARTIE NUIT",
+          "sceneId": "COULOIR",
+          "targetYaw": 180,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 90,
+          "type": "scene",
+          "text": "SALON",
+          "sceneId": "SALON",
+          "targetYaw": 220,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 10,
+          "type": "scene",
+          "text": "CUISINE",
+          "sceneId": "CUISINE",
+          "targetYaw": 20,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "SALON": {
+      "title": "SALON",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "SALON.jpg",
+      "hotSpots": [
+        {
+          "pitch": 30,
+          "yaw": 100,
+          "type": "scene",
+          "text": "MEZZANINE",
+          "sceneId": "MEZZANINE",
+          "targetYaw": 180,
+          "targetPitch": -10
+        },
+        {
+          "pitch": 0,
+          "yaw": 260,
+          "type": "scene",
+          "text": "TERRASSE",
+          "sceneId": "TERRASSE",
+          "targetYaw": 0,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 30,
+          "type": "scene",
+          "text": "SALLE A MANGER",
+          "sceneId": "SAM",
+          "targetYaw": 145,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "TERRASSE": {
+      "title": "TERRASSE",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "TERRASSE.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 55,
+          "type": "scene",
+          "text": "SALON",
+          "sceneId": "SALON",
+          "targetYaw": 90,
+          "targetPitch": 0
+        },
+        {
+          "pitch": -20,
+          "yaw": 200,
+          "type": "scene",
+          "text": "TERRASSE ARRIERE",
+          "sceneId": "TERRASSE2",
+          "targetYaw": 0,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 350,
+          "type": "scene",
+          "text": "SALLE A MANGER",
+          "sceneId": "SAM",
+          "targetYaw": 0,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "TERRASSE2": {
+      "title": "TERRASSE ARRIERE",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "TERRASSE2.jpg",
+      "hotSpots": [
+        {
+          "pitch": -20,
+          "yaw": 0,
+          "type": "scene",
+          "text": "TERRASSE",
+          "sceneId": "TERRASSE",
+          "targetYaw": 0,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 180,
+          "type": "scene",
+          "text": "JARDIN",
+          "sceneId": "JARDIN",
+          "targetYaw": 0,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 310,
+          "type": "scene",
+          "text": "COTE DROIT",
+          "sceneId": "EXTDROIT",
+          "targetYaw": 0,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "PORTILLON": {
+      "title": "ENTREE PRINCIPALE",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 180,
+      "type": "equirectangular",
+      "panorama": "PORTILLON.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 180,
+          "type": "scene",
+          "text": "ENTREE",
+          "sceneId": "ENTREE",
+          "targetYaw": 180,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 130,
+          "type": "INFO",
+          "text": "GARAGE"
+        },
+        {
+          "pitch": 0,
+          "yaw": 250,
+          "type": "scene",
+          "text": "VERS COTE DROIT",
+          "sceneId": "EXTDROIT",
+          "targetYaw": 180,
+          "targetPitch": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 90,
+          "type": "scene",
+          "text": "VUE GARAGE",
+          "sceneId": "PORTAIL",
+          "targetYaw": 180,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "PORTAIL": {
+      "title": "GARAGE",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 90,
+      "type": "equirectangular",
+      "panorama": "PORTAIL.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 180,
+          "type": "INFO",
+          "text": "GARAGE"
+        },
+        {
+          "pitch": 0,
+          "yaw":270,
+          "type": "scene",
+          "text": "VERS ENTREE PRINCIPALE",
+          "sceneId": "PORTILLON",
+          "targetYaw": 180
+        }
+      ]
+    },
+    "WC": {
+      "title": "PORTAIL",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 90,
+      "type": "equirectangular",
+      "panorama": "WC.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 120,
+          "type": "scene",
+          "text": "COULOIR",
+          "sceneId": "COULOIR",
+          "targetYaw": 180
+        }
+      ]
+  }
+}
+}
