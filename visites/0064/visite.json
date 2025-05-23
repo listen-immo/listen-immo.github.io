@@ -187,7 +187,7 @@
           "pitch": -5,
           "yaw": 15,
           "type": "scene",
-          "text": "TERRASSE ARRIERE",
+          "text": "TERRASSE",
           "sceneId": "TERRASSE2",
           "targetYaw": 0,
           "targetPitch": 0
@@ -302,16 +302,16 @@
       "hotSpots": [
         {
           "pitch": 0,
-          "yaw": 180,
+          "yaw": 0,
           "type": "scene",
           "text": "TERRASSE",
-          "sceneId": "TERRASSE",
+          "sceneId": "TERRASSE2",
           "targetYaw": 180,
           "targetPitch": 0
         },
         {
           "pitch": 0,
-          "yaw": 340,
+          "yaw": 160,
           "type": "scene",
           "text": "ENTREE",
           "sceneId": "ENTREE",
@@ -320,7 +320,7 @@
         },
         {
           "pitch": 0,
-          "yaw": 320,
+          "yaw": 140,
           "type": "scene",
           "text": "VERS PARTIE NUIT",
           "sceneId": "COULOIR",
@@ -329,7 +329,7 @@
         },
         {
           "pitch": 0,
-          "yaw": 90,
+          "yaw": 270,
           "type": "scene",
           "text": "SALON",
           "sceneId": "SALON",
@@ -338,7 +338,7 @@
         },
         {
           "pitch": 0,
-          "yaw": 10,
+          "yaw": 190,
           "type": "scene",
           "text": "CUISINE",
           "sceneId": "CUISINE",
@@ -366,15 +366,6 @@
         },
         {
           "pitch": 0,
-          "yaw": 260,
-          "type": "scene",
-          "text": "TERRASSE",
-          "sceneId": "TERRASSE",
-          "targetYaw": 0,
-          "targetPitch": 0
-        },
-        {
-          "pitch": 0,
           "yaw": 30,
           "type": "scene",
           "text": "SALLE A MANGER",
@@ -384,13 +375,13 @@
         }
       ]
     },
-    "TERRASSE": {
+    "TERRASSE2": {
       "title": "TERRASSE",
       "hfov": 500,
       "pitch": 0,
       "yaw": 0,
       "type": "equirectangular",
-      "panorama": "TERRASSE.jpg",
+      "panorama": "TERRASSE2.jpg",
       "hotSpots": [
         {
           "pitch": 0,
@@ -402,39 +393,11 @@
           "targetPitch": 0
         },
         {
-          "pitch": -20,
-          "yaw": 200,
-          "type": "scene",
-          "text": "TERRASSE ARRIERE",
-          "sceneId": "TERRASSE2",
-          "targetYaw": 0,
-          "targetPitch": 0
-        },
-        {
           "pitch": 0,
           "yaw": 350,
           "type": "scene",
           "text": "SALLE A MANGER",
           "sceneId": "SAM",
-          "targetYaw": 0,
-          "targetPitch": 0
-        }
-      ]
-    },
-    "TERRASSE2": {
-      "title": "TERRASSE ARRIERE",
-      "hfov": 500,
-      "pitch": 0,
-      "yaw": 0,
-      "type": "equirectangular",
-      "panorama": "TERRASSE2.jpg",
-      "hotSpots": [
-        {
-          "pitch": -20,
-          "yaw": 0,
-          "type": "scene",
-          "text": "TERRASSE",
-          "sceneId": "TERRASSE",
           "targetYaw": 0,
           "targetPitch": 0
         },
