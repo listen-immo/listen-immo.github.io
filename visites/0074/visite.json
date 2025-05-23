@@ -1,0 +1,196 @@
+{
+  "default": {
+    "firstScene":"ENTREE",
+    "author": "Listen Immo +",
+    "sceneFadeDuration": 1000
+  },
+  "scenes": {
+  "ENTREE": {
+    "title": "ENTREE",
+    "hfov": 500,
+    "pitch": 0,
+    "yaw": 0,
+    "type": "equirectangular",
+    "panorama": "ENTREE.jpg",
+    "hotSpots": [
+      {
+        "pitch": 0,
+        "yaw": 125,
+        "type": "info",
+        "text": "Toilettes"
+      },
+      {
+        "pitch": 0,
+        "yaw": 45,
+        "type": "info",
+        "text": "Placards"
+      },
+      {
+        "pitch": 0,
+        "yaw": 180,
+        "type": "info",
+        "text": "Porte d'entrée"
+      },
+      {
+        "pitch": 0,
+        "yaw": 0,
+        "type": "scene",
+        "text": "Dégagement",
+        "sceneId": "DEGAGEMENT",
+        "targetYaw": 180,
+        "targetPitch": 0
+      },
+      {
+        "pitch": 0,
+        "yaw": 300,
+        "type": "scene",
+        "text": "Pièce de vie",
+        "sceneId": "PIECE_DE_VIE",
+        "targetYaw": 180,
+        "targetPitch": 0
+      }
+    ]
+  },
+    "CH1": {
+      "title": "Chambre",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "CH1.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 40,
+          "type": "scene",
+          "text": "Vers dégagement",
+          "sceneId": "DEGAGEMENT",
+          "targetYaw": 180
+        }
+      ]
+    },
+    "SDB": {
+      "title": "Salle de bain'",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "SDB.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 0, 
+          "type": "scene",
+          "text": "Vers dégagement",
+          "sceneId": "DEGAGEMENT",
+          "targetYaw": 180,
+          "targetPitch": 0
+        }
+      ]
+    },
+    "CH2": {
+      "title": "Chambre",
+      "hfov": 500,
+      "pitch": 0,
+      "yaw": 0,
+      "type": "equirectangular",
+      "panorama": "CH2.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 350,
+          "type": "scene",
+          "text": "Vers dégagement",
+          "sceneId": "DEGAGEMENT",
+          "targetYaw": 180
+        }
+      ]
+    },
+    "DEGAGEMENT": {
+      "title": "Dégagement",
+      "pitch": 0,
+      "hfov": 500,
+      "yaw": 90,
+      "type": "equirectangular",
+      "panorama": "DEGAGEMENT.jpg",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 250,
+          "type": "scene",
+          "text": "Chambre",
+          "sceneId": "CH1",
+          "targetYaw": 180
+        },
+        {
+          "pitch": 0,
+          "yaw": 190,
+          "type": "scene",
+          "text": "Chambre",
+          "sceneId": "CH2",
+          "targetYaw": 180
+        },
+        {
+          "pitch": 0,
+          "yaw": 290,
+          "type": "scene",
+          "text": "Salle de bain",
+          "sceneId": "SDB",
+          "targetYaw": 180
+        },
+        {
+          "pitch": 0,
+          "yaw": 0,
+          "type": "scene",
+          "text": "Entrée",
+          "sceneId": "ENTREE",
+          "targetYaw": 0
+        }
+      ]
+    },
+    "PIECE_DE_VIE": {
+      "title": "Pièce de vie",
+      "pitch": 0,
+      "yaw": 180,
+      "hfov": 500,
+      "type": "equirectangular",
+      "panorama": "PIECE_DE_VIE.jpg",
+      "hotSpots": [
+              {
+          "pitch": 0,
+          "yaw": 290,
+          "type": "scene",
+          "text": "Entrée",
+          "sceneId": "ENTREE",
+          "targetYaw": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 180,
+          "type": "scene",
+          "text": "Balcon",
+          "sceneId": "BALCON",
+          "targetYaw": 0
+        }
+      ]
+    },
+    "BALCON": {
+      "title": "Balcon",
+      "pitch": 0,
+      "yaw": 180,
+      "hfov": 500,
+      "type": "equirectangular",
+      "panorama": "BALCON.jpg",
+      "hotSpots": [
+              {
+          "pitch": 0,
+          "yaw": 190,
+          "type": "scene",
+          "text": "Pièce de vie",
+          "sceneId": "PIECE_DE_VIE",
+          "targetYaw": 0
+        }
+      ]
+    }
+   }
+}
