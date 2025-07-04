@@ -4,17 +4,15 @@
   <url>
     <loc>./biens/0064/</loc>
   </url><url>
-    <loc>./biens/0071/</loc>
+    <loc>./archives/0071/</loc>
   </url><url>
     <loc>./biens/0069/</loc>
   </url><url>
-    <loc>./biens/0070/</loc>
-  </url><url>
-    <loc>./biens/0068/</loc>
-  </url><url>
-    <loc>./biens/0066/</loc>
+    <loc>./ventes/0070/</loc>
   </url><url>
     <loc>./biens/0067/</loc>
+  </url><url>
+    <loc>./biens/0066/</loc>
   </url><url>
     <loc>./biens/0062/</loc>
   </url><url>
@@ -22,77 +20,21 @@
   </url><url>
     <loc>./ventes/0058/</loc>
   </url><url>
-    <loc>./archives/0060/</loc>
-  </url><url>
-    <loc>./archives/0061/</loc>
+    <loc>./biens/0060/</loc>
   </url><url>
     <loc>./biens/0061/</loc>
   </url><url>
-    <loc>./archives/0032/</loc>
-  </url><url>
-    <loc>./archives/0015/</loc>
-  </url><url>
-    <loc>./archives/0012/</loc>
-  </url><url>
-    <loc>./archives/0024/</loc>
-  </url><url>
-    <loc>./archives/0026/</loc>
-  </url><url>
-    <loc>./archives/0031/</loc>
-  </url><url>
-    <loc>./archives/0034/</loc>
-  </url><url>
-    <loc>./archives/0037/</loc>
-  </url><url>
     <loc>./ventes/0056/</loc>
-  </url><url>
-    <loc>./archives/0053/</loc>
   </url><url>
     <loc>./ventes/0051/</loc>
   </url><url>
     <loc>./ventes/0049/</loc>
   </url><url>
-    <loc>./archives/0048/</loc>
-  </url><url>
-    <loc>./archives/0045/</loc>
-  </url><url>
-    <loc>./ventes/0044/</loc>
-  </url><url>
     <loc>./ventes/0046/</loc>
-  </url><url>
-    <loc>./ventes/0042/</loc>
-  </url><url>
-    <loc>./ventes/0041/</loc>
-  </url><url>
-    <loc>./ventes/0040/</loc>
   </url><url>
     <loc>./archives/0054/</loc>
   </url><url>
-    <loc>./archives/0039/</loc>
-  </url><url>
-    <loc>./ventes/0033/</loc>
-  </url><url>
-    <loc>./ventes/0029/</loc>
-  </url><url>
-    <loc>./visites/0039/</loc>
-  </url><url>
-    <loc>./visites/0040/</loc>
-  </url><url>
-    <loc>./visites/0041/</loc>
-  </url><url>
-    <loc>./visites/0042/</loc>
-  </url><url>
-    <loc>./visites/0043/</loc>
-  </url><url>
-    <loc>./visites/0044/</loc>
-  </url><url>
-    <loc>./visites/0045/</loc>
-  </url><url>
     <loc>./visites/0046/</loc>
-  </url><url>
-    <loc>./visites/0049/</loc>
-  </url><url>
-    <loc>./visites/0051/</loc>
   </url><url>
     <loc>./visites/0053/</loc>
   </url><url>
@@ -100,57 +42,19 @@
   </url><url>
     <loc>./visites/0057/</loc>
   </url><url>
-    <loc>./visites/0058/</loc>
-  </url><url>
-    <loc>./visites/0059/</loc>
-  </url><url>
     <loc>./visites/0062/</loc>
   </url><url>
     <loc>./visites/0064/</loc>
   </url><url>
     <loc>./visites/0067/</loc>
   </url><url>
-    <loc>./visites/0068/</loc>
-  </url><url>
     <loc>./visites/0074/</loc>
   </url><url>
-    <loc>./visites/1/</loc>
-  </url><url>
-    <loc>./visites/2/</loc>
-  </url><url>
-    <loc>./ventes/archives/0002/</loc>
-  </url><url>
-    <loc>./ventes/archives/0005/</loc>
-  </url><url>
-    <loc>./ventes/archives/0006/</loc>
-  </url><url>
-    <loc>./ventes/archives/0007/</loc>
-  </url><url>
-    <loc>./ventes/archives/0009/</loc>
-  </url><url>
-    <loc>./ventes/archives/0014/</loc>
-  </url><url>
-    <loc>./ventes/archives/0017/</loc>
-  </url><url>
-    <loc>./archives/0018/</loc>
-  </url><url>
-    <loc>./archives/0021/</loc>
-  </url><url>
-    <loc>./archives/0022/</loc>
-  </url><url>
-    <loc>./archives/0027/</loc>
-  </url><url>
-    <loc>./archives/0030/</loc>
-  </url><url>
     <loc>./categories/archive/</loc>
-  </url><url>
-    <loc>./categories/archives/</loc>
   </url><url>
     <loc>./archives/</loc>
   </url><url>
     <loc>./categories/bien/</loc>
-  </url><url>
-    <loc>./categories/biens/</loc>
   </url><url>
     <loc>./biens/</loc>
   </url><url>
@@ -161,8 +65,6 @@
     <loc>./tags/</loc>
   </url><url>
     <loc>./categories/vente/</loc>
-  </url><url>
-    <loc>./categories/ventes/</loc>
   </url><url>
     <loc>./ventes/</loc>
   </url><url>

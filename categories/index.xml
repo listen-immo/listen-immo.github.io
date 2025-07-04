@@ -16,15 +16,6 @@
     </item>
     
     <item>
-      <title>archives</title>
-      <link>./categories/archives/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>./categories/archives/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>bien</title>
       <link>./categories/bien/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -34,29 +25,11 @@
     </item>
     
     <item>
-      <title>biens</title>
-      <link>./categories/biens/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>./categories/biens/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>vente</title>
       <link>./categories/vente/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>./categories/vente/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ventes</title>
-      <link>./categories/ventes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>./categories/ventes/</guid>
       <description></description>
     </item>
     
