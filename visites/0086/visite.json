@@ -17,9 +17,9 @@
         "pitch": 0,
         "yaw": 260,
         "type": "scene",
-        "text": "SALON",
-        "sceneId": "SALON",
-        "targetYaw": 90,
+        "text": "ENTREE",
+        "sceneId": "ENTREE",
+        "targetYaw": 0,
         "targetPitch": 0
       },
       {
@@ -29,6 +29,61 @@
         "text": "ABRIS JARDIN",
         "sceneId": "ABRIS JARDIN",
         "targetYaw": 270,
+        "targetPitch": 0
+      }
+    ]
+  },
+  "COULOIR": {
+    "title": "COULOIR",
+    "hfov": 500,
+    "pitch": 0,
+    "yaw": 180,
+    "type": "equirectangular",
+    "panorama": "COULOIR.jpg",
+    "hotSpots": [
+      {
+        "pitch": 0,
+        "yaw": 330,
+        "type": "scene",
+        "text": "CHAMBRE1",
+        "sceneId": "CH1",
+        "targetYaw": 0,
+        "targetPitch": 0
+      },
+      {
+        "pitch": 0,
+        "yaw": 240,
+        "type": "scene",
+        "text": "CHAMBRE 2",
+        "sceneId": "CH2",
+        "targetYaw": 180,
+        "targetPitch": 0
+      },
+       {
+        "pitch": 0,
+        "yaw": 110,
+        "type": "scene",
+        "text": "CHAMBRE 3",
+        "sceneId": "CH3",
+        "targetYaw": 180,
+        "targetPitch": 0
+      },
+       {
+        "pitch": 0,
+        "yaw": 30,
+        "type": "scene",
+        "text": "SALLE DE BAIN",
+        "sceneId": "SDB",
+        "targetYaw": 180,
+        "targetPitch": 0
+      },
+      {
+        "pitch": 0,
+        "yaw": 0,
+        "type": "scene",
+        "text": "SALON",
+        "sceneId": "SALON",
+        "targetYaw": 180,
         "targetPitch": 0
       }
     ]
@@ -51,11 +106,62 @@
         "targetPitch": 0
       },
       {
+          "pitch": 0,
+          "yaw": 240,
+          "type": "info",
+          "text": "puit"
+        },
+      {
         "pitch": 0,
-        "yaw": 240,
+        "yaw": 260,
         "type": "scene",
         "text": "COTE MAISON",
         "sceneId": "JARDIN3",
+        "targetYaw": 180,
+        "targetPitch": 0
+      }
+    ]
+  },
+  "ENTREE": {
+    "title": "ENTREE",
+    "pitch": 0,
+    "yaw": 180,
+    "type": "equirectangular",
+    "panorama": "ENTREE.jpg",
+    "hotSpots": [
+      {
+        "pitch": 0,
+        "yaw": 180,
+        "type": "scene",
+        "text": "PORTAIL",
+        "sceneId": "PORTAIL",
+        "targetYaw": 0,
+        "targetPitch": 0
+      },
+      {
+        "pitch": 0,
+        "yaw": 0,
+        "type": "scene",
+        "text": "SALON",
+        "sceneId": "SALON",
+        "targetYaw": 180,
+        "targetPitch": 0
+      },
+      {
+        "pitch": 0,
+        "yaw": 270,
+        "type": "scene",
+        "text": "WC",
+        "sceneId": "WC",
+        "targetYaw": 180,
+        "targetPitch": 0
+      },
+      {
+        "pitch": 0,
+        "yaw": 350,
+        "type": "scene",
+        "text": "CELLIER",
+        "sceneId": "CELLIER",
         "targetYaw": 180,
         "targetPitch": 0
       }
@@ -92,7 +198,7 @@
         "yaw": 290,
         "type": "scene",
         "text": "ENTREE",
-        "sceneId": "PORTAIL",
+        "sceneId": "ENTREE",
         "targetYaw": 0,
         "targetPitch": 0
       },
@@ -119,7 +225,7 @@
         "yaw": 340,
         "type": "scene",
         "text": "COIN NUIT",
-        "sceneId": "CH1",
+        "sceneId": "COULOIR",
         "targetYaw": 0,
         "targetPitch": 0
       }
@@ -128,36 +234,34 @@
     "CH1": {
       "title": "CHAMBRE 1",
       "pitch": 0,
-      "hfov": 500,
       "yaw": 0,
       "type": "equirectangular",
       "panorama": "CH1.jpg",
       "hotSpots": [
         {
           "pitch": 0,
-          "yaw": 0,
+          "yaw": 310,
           "type": "scene",
-          "text": "CHAMBRE 2",
-          "sceneId": "CH2",
-          "targetYaw": 180
+          "text": "COULOIR",
+          "sceneId": "COULOIR",
+          "targetYaw": 0
         }
       ]
     },
     "CH3": {
       "title": "CHAMBRE 3",
       "pitch": 0,
-      "hfov": 500,
       "yaw": 0,
       "type": "equirectangular",
       "panorama": "CH3.jpg",
       "hotSpots": [
         {
           "pitch": 0,
-          "yaw": 90,
+          "yaw": 30,
           "type": "scene",
-          "text": "SALLE DE BAIN",
-          "sceneId": "SDB",
-          "targetYaw": 180
+          "text": "COULOIR",
+          "sceneId": "COULOIR",
+          "targetYaw": 0
         }
       ]
     },
@@ -173,16 +277,15 @@
           "pitch": 0,
           "yaw": 0, 
           "type": "scene",
-          "text": "SALON",
-          "sceneId": "SALON",
-          "targetYaw": 180,
+          "text": "COULOIR",
+          "sceneId": "COULOIR",
+          "targetYaw": 0,
           "targetPitch": 0
         }
       ]
     },
     "CH2": {
       "title": "CHAMBRE 2",
-      "hfov": 500,
       "pitch": 0,
       "yaw": 0,
       "type": "equirectangular",
@@ -190,11 +293,11 @@
       "hotSpots": [
         {
           "pitch": 0,
-          "yaw": 0,
+          "yaw": 350,
           "type": "scene",
-          "text": "CHAMBRE 3",
-          "sceneId": "CH3",
-          "targetYaw": 180
+          "text": "COULOIR",
+          "sceneId": "COULOIR",
+          "targetYaw": 0
         }
       ]
     },
@@ -228,8 +331,8 @@
           "pitch": 0,
           "yaw": 0,
           "type": "scene",
-          "text": "SALON",
-          "sceneId": "SALON",
+          "text": "ENTREE",
+          "sceneId": "ENTREE",
           "targetYaw": 180
         }
       ]
@@ -249,6 +352,12 @@
           "text": "TERRASSE",
           "sceneId": "TERRASSE",
           "targetYaw": 0
+        },
+        {
+          "pitch": 0,
+          "yaw": 40,
+          "type": "info",
+          "text": "puit"
         },
         {
           "pitch": 0,
@@ -286,7 +395,7 @@
       "hotSpots": [
         {
           "pitch": 0,
-          "yaw": 0,
+          "yaw": 310,
           "type": "scene",
           "text": "TERRASSE",
           "sceneId": "TERRASSE",
@@ -294,7 +403,7 @@
         },
         {
           "pitch": 0,
-          "yaw": 50,
+          "yaw": 0,
           "type": "scene",
           "text": "COTE MAISON",
           "sceneId": "JARDIN3",
@@ -302,7 +411,7 @@
         },
         {
           "pitch": 0,
-          "yaw": 300,
+          "yaw": 260,
           "type": "scene",
           "text": "JARDIN",
           "sceneId": "JARDIN",
