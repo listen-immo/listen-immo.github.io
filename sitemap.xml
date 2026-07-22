@@ -4,6 +4,8 @@
   <url>
     <loc>./ventes/0064/</loc>
   </url><url>
+    <loc>./biens/0088/</loc>
+  </url><url>
     <loc>./biens/0086/</loc>
   </url><url>
     <loc>./biens/0084/</loc>
@@ -73,6 +75,8 @@
     <loc>./visites/0086/</loc>
   </url><url>
     <loc>./categories/archive/</loc>
+  </url><url>
+    <loc>./categories/archives/</loc>
   </url><url>
     <loc>./archives/</loc>
   </url><url>
