@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>archive on Listen IMMO&#43;</title>
     <link>./categories/archive/</link>
     <description>Recent content in archive on Listen IMMO&#43;</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr</language><atom:link href="./categories/archive/index.xml" rel="self" type="application/rss+xml" />
+    <language>fr</language>
+    
+	<atom:link href="./categories/archive/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Maison 83 m2 - Lacanau-Océan</title>
       <link>./archives/0080/</link>
@@ -37,6 +41,17 @@ L’appartement d’environ 89m² est situé au dernier étage. Il est composé 
     </item>
     
     <item>
+      <title>Maison Biscarosse Plage - 173m²</title>
+      <link>./archives/0057/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./archives/0057/</guid>
+      <description>Listen immo+ vous emmène à la découverte de cette villa de plain-pied typiquement Biscarrossaise du début du siècle dernier.
+Idéalement située dans un quartier calme et recherché, à 200m de la plage et à 500m du centre et de ses commerces.
+Parfait pour les adeptes de sports (vélo, surf, yoga…) ou les flâneurs entre lacs, dunes, pins et Océan… Le bassin d&amp;rsquo;Arcachon est accessible à environ 20 minutes et Bordeaux à un peu plus d’une heure.</description>
+    </item>
+    
+    <item>
       <title>Apartement Bordeaux Tauzia T4 - 100m²</title>
       <link>./archives/0049/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -52,7 +67,7 @@ L’appartement d’environ 89m² est situé au dernier étage. Il est composé 
       
       <guid>./ventes/0046/</guid>
       <description>Dans une résidence sécurisée, avec gardien, à proximité des commerces, du domaine universitaire et des transports Studio lumineux et fonctionnel, entièrement meublé et refait à neuf récemment. Pièce de vie avec placard aménagé, kitchenette et salle d&amp;rsquo;eau. Vendu avec une place de stationnement. Ravalement réalisé il y a 2 ans.
-Loué 520 euros CC par mois avec locataire en place. Nombre de lots de la copropriété: 200 dont 94 d&amp;rsquo;habitation. Les charges annuelles sont d&amp;rsquo;environ 550 euros par an.</description>
+ Loué 520 euros CC par mois avec locataire en place. Nombre de lots de la copropriété: 200 dont 94 d&amp;rsquo;habitation.</description>
     </item>
     
     <item>

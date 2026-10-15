@@ -1,105 +1,229 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
     <loc>./ventes/0067/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./ventes/0064/</loc>
-  </url><url>
+  </url>
+  
+  <url>
+    <loc>./biens/0093/</loc>
+  </url>
+  
+  <url>
+    <loc>./biens/0091/</loc>
+  </url>
+  
+  <url>
     <loc>./biens/0090/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./biens/0089/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./biens/0088/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./biens/0086/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./biens/0084/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./ventes/0075/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./biens/0082/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./biens/0083/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./archives/0080/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./archives/0071/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./ventes/0062/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./ventes/0074/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./biens/0069/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./ventes/0070/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./biens/0077/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./ventes/0068/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./biens/0066/</loc>
-  </url><url>
-    <loc>./biens/0057/</loc>
-  </url><url>
+  </url>
+  
+  <url>
+    <loc>./archives/0057/</loc>
+  </url>
+  
+  <url>
     <loc>./ventes/0058/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./biens/0060/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./biens/0061/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./ventes/0056/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./ventes/0051/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./archives/0049/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./ventes/0046/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./archives/0054/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./visites/0046/</loc>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>./visites/0053/</loc>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>./visites/0054/</loc>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>./visites/0057/</loc>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>./visites/0062/</loc>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>./visites/0064/</loc>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>./visites/0067/</loc>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>./visites/0074/</loc>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>./visites/0082/</loc>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>./visites/0086/</loc>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>./visites/0089/</loc>
-  </url><url>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>./visites/0091/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>./categories/archive/</loc>
-  </url><url>
-    <loc>./categories/archives/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./archives/</loc>
-  </url><url>
+  </url>
+  
+  <url>
+    <loc>./categories/archives/</loc>
+  </url>
+  
+  <url>
     <loc>./categories/bien/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./biens/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./categories/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./tags/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./categories/vente/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./ventes/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>./visites/</loc>
   </url>
+  
 </urlset>

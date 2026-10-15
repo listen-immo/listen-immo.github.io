@@ -1,11 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Biens on Listen IMMO&#43;</title>
     <link>./biens/</link>
     <description>Recent content in Biens on Listen IMMO&#43;</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr</language><atom:link href="./biens/index.xml" rel="self" type="application/rss+xml" />
+    <language>fr</language>
+    
+	<atom:link href="./biens/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Échoppe de charme avec piscine et dépendance Talence</title>
+      <link>./biens/0093/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./biens/0093/</guid>
+      <description>La maison s’articule autour d’une superbe pièce de vie de plus de 50 m², baignée de lumière naturelle. La cuisine ouverte et son cellier complètent harmonieusement l’espace. La cheminée apporte une touche chaleureuse à cette pièce aux beaux volumes, ouverte sur le jardin grâce à de larges baies vitrées qui effacent la frontière entre intérieur et extérieur. À l’abri des regards, le jardin intimiste accueille une piscine au sel et un coin de verdure idéal pour profiter des beaux jours dans un cadre apaisant.</description>
+    </item>
+    
+    <item>
+      <title>Belle maison en pierre rénovée 152m2 Villenave d&#39;Ornon</title>
+      <link>./biens/0091/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./biens/0091/</guid>
+      <description>Découvrez cette charmante maison en pierre de 135 m², offrant de beaux volumes, une rénovation soignée et un cadre de vie particulièrement agréable.
+Au rez-de-chaussée, vous profiterez d’une très grande pièce de vie lumineuse et conviviale, avec un magnifique sol en travertin, ainsi que d’une cuisine équipée et d’une chambre. La maison dispose également à ce niveau d’une belle salle de bains rénovée, équipée d’une douche, d’une baignoire et de WC ainsi qu&amp;rsquo;une buanderie.</description>
+    </item>
+    
     <item>
       <title>Appartement 102 m²  Ancienne Villa Arcachonnaise</title>
       <link>./biens/0090/</link>
@@ -102,17 +125,6 @@ L’appartement d’environ 89m² est situé au dernier étage. Il est composé 
       <description>Listen Immo+ vous propose cette magnifique réalisation architecturale de 1976 du célèbre architecte Bordelais Jacques HONDELATTE, et revisitée en 2018 par son disciple Seck BOUBACAR qui a su conserver tout l’esprit du projet initial et ces matériaux d’origine.
 Ce bâtiment est organisé autour de son escalier qui dessert différents niveaux d’espace de vie.
 Vous trouverez dans un premier niveau la pièce à vivre avec sa cuisine ouverte et sa buanderie.</description>
-    </item>
-    
-    <item>
-      <title>Maison Biscarosse Plage - 173m²</title>
-      <link>./biens/0057/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>./biens/0057/</guid>
-      <description>Listen immo+ vous emmène à la découverte de cette villa de plain-pied typiquement Biscarrossaise du début du siècle dernier.
-Idéalement située dans un quartier calme et recherché, à 200m de la plage et à 500m du centre et de ses commerces.
-Parfait pour les adeptes de sports (vélo, surf, yoga…) ou les flâneurs entre lacs, dunes, pins et Océan… Le bassin d&amp;rsquo;Arcachon est accessible à environ 20 minutes et Bordeaux à un peu plus d’une heure.</description>
     </item>
     
     <item>

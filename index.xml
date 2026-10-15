@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Listen IMMO&#43;</title>
     <link>./</link>
     <description>Recent content on Listen IMMO&#43;</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr</language><atom:link href="./index.xml" rel="self" type="application/rss+xml" />
+    <language>fr</language>
+    
+	<atom:link href="./index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Maison 6 pièces Camblanes et Meynac</title>
       <link>./ventes/0067/</link>
@@ -23,6 +27,25 @@ Cette maison de ville de 150m2 est une belle opportunité. Les pièces sont tout
       
       <guid>./ventes/0064/</guid>
       <description>Venez découvrir cette agréable maison d&amp;rsquo;environ 100 m², sur une parcelle de près de 800 m² sur la commune du Barp. Avec sa décoration recherchée, cette maison offre un cadre chaleureux et accueillant. Elle est composée d&amp;rsquo;une cuisine ouverte, aménagée et équipée, d&amp;rsquo;une salle à manger et d&amp;rsquo;un salon, donnant sur une belle terrasse en bois, disposition idéale pour les moments conviviaux en famille ou entre amis. Cette habitation bénéficie de menuiseries PVC double vitrage, assurant une isolation optimale.</description>
+    </item>
+    
+    <item>
+      <title>Échoppe de charme avec piscine et dépendance Talence</title>
+      <link>./biens/0093/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./biens/0093/</guid>
+      <description>La maison s’articule autour d’une superbe pièce de vie de plus de 50 m², baignée de lumière naturelle. La cuisine ouverte et son cellier complètent harmonieusement l’espace. La cheminée apporte une touche chaleureuse à cette pièce aux beaux volumes, ouverte sur le jardin grâce à de larges baies vitrées qui effacent la frontière entre intérieur et extérieur. À l’abri des regards, le jardin intimiste accueille une piscine au sel et un coin de verdure idéal pour profiter des beaux jours dans un cadre apaisant.</description>
+    </item>
+    
+    <item>
+      <title>Belle maison en pierre rénovée 152m2 Villenave d&#39;Ornon</title>
+      <link>./biens/0091/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./biens/0091/</guid>
+      <description>Découvrez cette charmante maison en pierre de 135 m², offrant de beaux volumes, une rénovation soignée et un cadre de vie particulièrement agréable.
+Au rez-de-chaussée, vous profiterez d’une très grande pièce de vie lumineuse et conviviale, avec un magnifique sol en travertin, ainsi que d’une cuisine équipée et d’une chambre. La maison dispose également à ce niveau d’une belle salle de bains rénovée, équipée d’une douche, d’une baignoire et de WC ainsi qu&amp;rsquo;une buanderie.</description>
     </item>
     
     <item>
@@ -194,10 +217,10 @@ Vous trouverez dans un premier niveau la pièce à vivre avec sa cuisine ouverte
     
     <item>
       <title>Maison Biscarosse Plage - 173m²</title>
-      <link>./biens/0057/</link>
+      <link>./archives/0057/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./biens/0057/</guid>
+      <guid>./archives/0057/</guid>
       <description>Listen immo+ vous emmène à la découverte de cette villa de plain-pied typiquement Biscarrossaise du début du siècle dernier.
 Idéalement située dans un quartier calme et recherché, à 200m de la plage et à 500m du centre et de ses commerces.
 Parfait pour les adeptes de sports (vélo, surf, yoga…) ou les flâneurs entre lacs, dunes, pins et Océan… Le bassin d&amp;rsquo;Arcachon est accessible à environ 20 minutes et Bordeaux à un peu plus d’une heure.</description>
@@ -277,7 +300,7 @@ Il est situé à proximité des commerces et des transports (métro ligne 12 Vau
       
       <guid>./ventes/0046/</guid>
       <description>Dans une résidence sécurisée, avec gardien, à proximité des commerces, du domaine universitaire et des transports Studio lumineux et fonctionnel, entièrement meublé et refait à neuf récemment. Pièce de vie avec placard aménagé, kitchenette et salle d&amp;rsquo;eau. Vendu avec une place de stationnement. Ravalement réalisé il y a 2 ans.
-Loué 520 euros CC par mois avec locataire en place. Nombre de lots de la copropriété: 200 dont 94 d&amp;rsquo;habitation. Les charges annuelles sont d&amp;rsquo;environ 550 euros par an.</description>
+ Loué 520 euros CC par mois avec locataire en place. Nombre de lots de la copropriété: 200 dont 94 d&amp;rsquo;habitation.</description>
     </item>
     
     <item>
@@ -386,6 +409,15 @@ Au rdc, vous trouverez un bel espace de vie lumineux, un wc et une cuisine sépa
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>./visites/0089/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>./visites/0091/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./visites/0091/</guid>
       <description></description>
     </item>
     

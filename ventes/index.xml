@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ventes on Listen IMMO&#43;</title>
     <link>./ventes/</link>
     <description>Recent content in Ventes on Listen IMMO&#43;</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr</language><atom:link href="./ventes/index.xml" rel="self" type="application/rss+xml" />
+    <language>fr</language>
+    
+	<atom:link href="./ventes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Maison 6 pièces Camblanes et Meynac</title>
       <link>./ventes/0067/</link>
@@ -117,7 +121,7 @@ Il est situé à proximité des commerces et des transports (métro ligne 12 Vau
       
       <guid>./ventes/0046/</guid>
       <description>Dans une résidence sécurisée, avec gardien, à proximité des commerces, du domaine universitaire et des transports Studio lumineux et fonctionnel, entièrement meublé et refait à neuf récemment. Pièce de vie avec placard aménagé, kitchenette et salle d&amp;rsquo;eau. Vendu avec une place de stationnement. Ravalement réalisé il y a 2 ans.
-Loué 520 euros CC par mois avec locataire en place. Nombre de lots de la copropriété: 200 dont 94 d&amp;rsquo;habitation. Les charges annuelles sont d&amp;rsquo;environ 550 euros par an.</description>
+ Loué 520 euros CC par mois avec locataire en place. Nombre de lots de la copropriété: 200 dont 94 d&amp;rsquo;habitation.</description>
     </item>
     
   </channel>

@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>vente on Listen IMMO&#43;</title>
     <link>./categories/vente/</link>
     <description>Recent content in vente on Listen IMMO&#43;</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr</language><atom:link href="./categories/vente/index.xml" rel="self" type="application/rss+xml" />
+    <language>fr</language>
+    
+	<atom:link href="./categories/vente/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Maison 6 pièces Camblanes et Meynac</title>
       <link>./ventes/0067/</link>
