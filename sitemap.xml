@@ -183,6 +183,11 @@
   </url>
   
   <url>
+    <loc>./visites/0094/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>./categories/archive/</loc>
   </url>
   
